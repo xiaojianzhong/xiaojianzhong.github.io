@@ -1,0 +1,11 @@
+# MacOS
+.DS_Store
+
+# jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# npm
+node_modules/
