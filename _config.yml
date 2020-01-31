@@ -1,0 +1,23 @@
+# Site settings
+baseurl: '/azxj.github.io'
+
+name: 钟晓键
+gender: 男
+birthday:
+  year: 1999
+  month: Apr
+  day: 5
+hometown: 广东汕头
+location: 广州
+political: 共青团员
+faculty: 信息科学技术学院
+department: 计算机科学系
+major: 网络工程
+grade: 大三
+school: 暨南大学
+github: azxj
+phone: 13042025045
+WeChat: ZXJ1158257471
+QQ: 1158257471
+email: ZXJ13413431649@gmail.com
+ZhiHu: https://www.zhihu.com/people/zhong-xiaojian

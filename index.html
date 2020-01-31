@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<div id="ace-content" class="ace-container-shift">
+  <div class="ace-container">
+    <div id="ace-nav-wrap" class="hidden-sm hidden-xs">
+      <div class="ace-nav-cont">
+        <div id="ace-nav-scroll">
+          <nav id="ace-nav" class="ace-nav">
+            <ul class="clear-list">
+              <li>
+                <a href="index.html" data-tooltip="Home"
+                  ><img
+                    class="avatar avatar-42"
+                    src="{{ '/styles/img/avatar.jpeg' | prepend: site.baseurl }}"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#basic" data-tooltip="基本信息"
+                  ><span class="ace-icon ace-icon-home"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#professional" data-tooltip="职业技能"
+                  ><span class="ace-icon ace-icon-experience"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#education" data-tooltip="教育经历"
+                  ><span class="ace-icon ace-icon-portfolio"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#experience" data-tooltip="工作经历"
+                  ><span class="ace-icon ace-icon-references"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#competition" data-tooltip="获奖情况"
+                  ><span class="ace-icon ace-icon-blog"></span
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div id="ace-nav-tools" class="hidden">
+          <span class="ace-icon ace-icon-dots-three-horizontal"></span>
+
+          <button id="ace-nav-arrow" class="clear-btn">
+            <span class="ace-icon ace-icon-chevron-thin-down"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="ace-paper-stock">
+      <main class="ace-paper clearfix">
+        <div class="ace-paper-cont clear-mrg">
+          <div class="padd-box clear-mrg">
+            {% include basic.html %} {% include professional.html %} {% include
+            education.html %} {% include experience.html %} {% include
+            competition.html %}
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
