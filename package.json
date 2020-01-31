@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/azxj/azxj.github.io/issues"
   },
-  "homepage": "https://github.com/azxj/azxj.github.io#readme"
+  "homepage": "https://github.com/azxj/azxj.github.io#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-angular": "^8.3.4",
+    "@commitlint/prompt-cli": "^8.3.5"
+  }
 }
