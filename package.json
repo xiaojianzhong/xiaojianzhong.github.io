@@ -19,6 +19,12 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-angular": "^8.3.4",
-    "@commitlint/prompt-cli": "^8.3.5"
+    "@commitlint/prompt-cli": "^8.3.5",
+    "husky": "^4.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
