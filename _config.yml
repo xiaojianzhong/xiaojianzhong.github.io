@@ -20,7 +20,9 @@ github: github.com/azxj
 phone: 13042025045
 WeChat: ZXJ1158257471
 QQ: 1158257471
-email: ZXJ13413431649@gmail.com
+emails:
+  - ZXJ13413431649@gmail.com
+  - 1158257471@qq.com
 ZhiHu: https://www.zhihu.com/people/zhong-xiaojian
 
 exclude:
