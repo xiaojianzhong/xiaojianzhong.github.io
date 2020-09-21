@@ -24,6 +24,7 @@ emails:
   - ZXJ13413431649@gmail.com
   - 1158257471@qq.com
 ZhiHu: https://www.zhihu.com/people/zhong-xiaojian
+GPA: 3.78
 
 exclude:
   ['LICENSE', 'package.json', 'package-lock.json', 'commitlint.config.js']
