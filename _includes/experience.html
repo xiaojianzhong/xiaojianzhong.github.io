@@ -2,88 +2,138 @@
   <div class="row">
     <div class="col-sm-12 clear-mrg">
       <h2 class="title-thin text-muted">实践经历</h2>
-      <br />
-      <div class="education">
-        <div class="education-box">
-          <time class="education-date" datetime="2019-06T2019-12">
-            <span
-              >Jun <strong class="text-upper">2019</strong> - Dec
-              <strong>2019</strong></span
-            >
-          </time>
-          <h3>物流系统运维</h3>
-          <span class="education-company"
-            >GetU 项目&nbsp;&nbsp;|&nbsp;&nbsp;时丰物流有限公司</span
-          >
-          <ul>
-            <li>
-              <p>
-                基于
-                <a href="https://github.com/Unitech/pm2">pm2</a>、<a
-                  href="https://github.com/foreversd/forever"
-                  >forever</a
-                >
-                等进程管理工具监控业务服务器资源负载、记录异常日志、管理定时任务
-              </p>
-            </li>
-            <li>
-              <p>协助完成物流系统迁移、部署等工作</p>
-            </li>
-          </ul>
+
+      <div class="ref-box hreview">
+        <div class="ref-avatar">
+          <img
+            alt=""
+            src="{{ '/styles/img/experience/bytedance.jpg' | prepend: site.baseurl }}"
+            class="photo"
+            height="54"
+            width="54"
+          />
         </div>
 
-        <div class="education-box">
-          <time class="education-date" datetime="2018-06T2019-06">
-            <span
-              >Jun <strong class="text-upper">2018</strong> - Jun
-              <strong>2019</strong></span
-            >
-          </time>
-          <h3>后端工程师</h3>
-          <span class="education-company"
-            >货多多集运项目&nbsp;&nbsp;|&nbsp;&nbsp;广州进兴网络科技有限公司（技术合伙人）</span
-          >
-          <ul>
-            <li>
-              <p>
-                基于
-                <a href="https://github.com/expressjs/express">express</a>
-                构建<strong>跨境物流服务（to C）平台</strong
-                >，支撑起十万级别的总用户量
-              </p>
-            </li>
-            <li>
-              <p>
-                使用
-                <a href="https://github.com/mongodb/mongo">MongoDB</a>
-                +
-                <a href="https://github.com/Automattic/mongoose">mongoose</a>
-                搭建<strong>集运业务数据库与 ORM</strong>
-              </p>
-            </li>
-            <li>
-              <p>
-                参照菜鸟驿站业务模型设计并实现了一套可用的<strong>快递仓储管理系统</strong>，同时适配
-                PDA 设备编写了部分前端页面
-              </p>
-            </li>
-            <li>
-              <p>
-                利用机器学习技术设计并训练了一个<strong>货架位置推荐算法模型</strong>，并通过使用
-                <a href="https://www.tensorflow.org/js">TensorFlow.js</a>
-                成功将其部署到快递入库设备上
-              </p>
-            </li>
-            <li>
-              <p>
-                基于
-                <a href="https://github.com/expressjs/express">express</a> +
-                <a href="https://github.com/koajs/koa">koa</a> 搭建了一套
-                <strong>RESTful 风格的业务数据统计 API</strong
-                >，并在遇到性能瓶颈的时期通过<strong>数据库查询优化技术</strong>成倍提高了接口性能
-              </p>
-            </li>
-          </ul>
+        <div class="ref-info">
+          <div class="ref-author">
+            <strong>字节跳动 Data-架构</strong>
+            <span>Sept 2020 - Dec 2020&nbsp;&nbsp;系统架构研发实习生</span>
+          </div>
+
+          <blockquote class="ref-cont clear-mrg">
+            <p>负责抖音、TikTok 推荐系统离线数据流建设和内容理解相关工作</p>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="ref-box hreview">
+        <div class="ref-avatar">
+          <img
+            alt=""
+            src="{{ '/styles/img/experience/tencent.png' | prepend: site.baseurl }}"
+            class="photo"
+            height="54"
+            width="54"
+          />
+        </div>
+
+        <div class="ref-info">
+          <div class="ref-author">
+            <strong>腾讯 PCG/技术运营部</strong>
+            <span>July 2020 - Sept 2020&nbsp;&nbsp;运营开发暑期实习生</span>
+          </div>
+
+          <blockquote class="ref-cont clear-mrg">
+            <p>负责视频内容与特征中台微服务的开发、移植和重构工作：</p>
+            <ul>
+              <li>
+                <p>移植任务管理服务，完成从 HTTP 协议到 RPC 协议的转换</p>
+              </li>
+              <li>
+                <p>
+                  重构视频下载服务，多并发场景下 QPS 提高 62%，用户等待时间降低
+                  38%，单测覆盖率达 96%+，CR 评级达 A
+                </p>
+              </li>
+            </ul>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="ref-box hreview">
+        <div class="ref-avatar">
+          <img
+            alt=""
+            src="{{ '/styles/img/experience/times.png' | prepend: site.baseurl }}"
+            class="photo"
+            height="54"
+            width="54"
+          />
+        </div>
+
+        <div class="ref-info">
+          <div class="ref-author">
+            <strong>时丰物流</strong>
+            <span>Jun 2019 - Dec 2019&nbsp;&nbsp;系统运维</span>
+          </div>
+
+          <blockquote class="ref-cont clear-mrg">
+            <ul>
+              <li>
+                <p>监控业务服务器资源负载、记录异常日志、管理定时任务</p>
+              </li>
+              <li>
+                <p>协助完成集运物流系统迁移与部署</p>
+              </li>
+            </ul>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="ref-box hreview">
+        <div class="ref-avatar">
+          <img
+            alt=""
+            src="{{ '/styles/img/experience/jinxing.png' | prepend: site.baseurl }}"
+            class="photo"
+            height="54"
+            width="54"
+          />
+        </div>
+
+        <div class="ref-info">
+          <div class="ref-author">
+            <strong>进兴网络科技</strong>
+            <span>Jun 2018 - Jun 2019&nbsp;&nbsp;后台开发技术合伙人</span>
+          </div>
+
+          <blockquote class="ref-cont clear-mrg">
+            <ul>
+              <li>
+                <p>搭建 C 端跨境物流服务平台，支撑起 10w+ 级别的用户量</p>
+              </li>
+              <li>
+                <p>基于 MongoDB 搭建集运业务数据库</p>
+              </li>
+              <li>
+                <p>协助对接 Alipay HK 接口</p>
+              </li>
+              <li>
+                <p>
+                  参照菜⻦驿站业务模型设计并实现一套可用的快递仓储管理系统，适配快递入库设备编写了部分前端⻚面
+                </p>
+              </li>
+              <li>
+                <p>基于机器学习技术设计并训练货架位置推荐算法模型</p>
+              </li>
+              <li>
+                <p>
+                  实现了一套 RESTful ⻛格的业务数据统计
+                  API，在遇到性能瓶颈的时期通过数据库查询优化技术成倍提高了接口性能
+                </p>
+              </li>
+            </ul>
+          </blockquote>
         </div>
       </div>
     </div>
