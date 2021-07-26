@@ -23,8 +23,44 @@ QQ: 1158257471
 emails:
   - ZXJ13413431649@gmail.com
   - 1158257471@qq.com
-ZhiHu: https://www.zhihu.com/people/zhong-xiaojian
-GPA: 3.78
+educations:
+  - faculty: 信息科学技术学院
+    department: 计算机科学系
+    major: 网络工程
+    school: 暨南大学
+    period: 'Sept 2017 - Jun 2021'
+    duty: 学习委员
+    avatar: '/styles/img/jnu.jpg'
+    descriptions:
+      - - '高级语言程序设计：93'
+        - '高级语言程序设计实验：92'
+        - 'C++ 程序设计：96'
+        - 'C++ 程序设计实验：97'
+        - 'Java 程序设计实验：93'
+        - 'Unix / Linux 使用：93'
+        - '操作系统原理：97'
+        - '操作系统原理实验：96'
+        - '计算机系统结构：95'
+        - '计算机组成原理实验：100'
+      - - '计算机网络：98'
+        - '计算机网络实验：92'
+        - '网络工程与组网技术：96'
+        - '网络工程与组网技术实验：96'
+        - '计算机专业英语：98'
+        - '机器学习与神经网络：100'
+        - '数字图像处理：92'
+        - '数据挖掘：95'
+        - '软件测试与质量保证：100'
+        - '计算机密码学：99'
+        - '毕业论文：94'
+  - faculty: 广州研究院
+    department: 电子信息
+    major: 大数据与人工智能
+    school: 西安电子科技大学
+    period: 'Sept 2021 - Jun 2024'
+    duty:
+    avatar: '/styles/img/xdu.jpg'
+    descriptions:
 
 exclude:
   ['LICENSE', 'package.json', 'package-lock.json', 'commitlint.config.js']

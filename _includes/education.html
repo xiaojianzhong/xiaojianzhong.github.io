@@ -3,11 +3,12 @@
     <div class="col-sm-12 clear-mrg">
       <h2 class="title-thin text-muted">教育经历</h2>
 
+      {% for edu in site.educations reversed %}
       <div class="ref-box hreview">
         <div class="ref-avatar">
           <img
             alt=""
-            src="{{ '/styles/img/school.jpg' | prepend: site.baseurl }}"
+            src="{{ edu.avatar | prepend: site.baseurl }}"
             class="avatar avatar-54 photo"
             height="54"
             width="54"
@@ -17,53 +18,26 @@
         <div class="ref-info">
           <div class="ref-author">
             <strong
-              >{{ site.school }} {{ site.department }} {{ site.major }}</strong
+              >{{ edu.school }} {{ edu.department }} {{ edu.major }}</strong
             >
-            <span>Sept 2017 - Jun 2021&nbsp;&nbsp;学习委员</span>
+            <span>{{ edu.period }}&nbsp;&nbsp;{{ edu.duty }}</span>
           </div>
 
           <blockquote class="ref-cont clear-mrg">
-            <p>
-              <strong>学习能力</strong>强，大三学年平均绩点达
-              <strong>4.38 / 5.0（全系第一）</strong>，专业课成绩突出：
-            </p>
-            <ul>
-              <li><p>高级语言程序设计：93</p></li>
-              <li><p>Unix / Linux 使用：93</p></li>
-              <li><p>操作系统原理：97</p></li>
-              <li><p>C++ 程序设计：96</p></li>
-              <li><p>计算机网络：98</p></li>
-              <li><p>数据库基本原理：90</p></li>
-              <li><p>计算机专业英语：98</p></li>
-              <li><p>软件测试与质量保证：100</p></li>
-              <li><p>计算机系统结构：95</p></li>
-              <li><p>数据挖掘：95</p></li>
-              <li><p>计算机密码学：99</p></li>
-              <li><p>网络工程与组网技术：96</p></li>
-              <li><p>机器学习与神经网络：100</p></li>
-              <li><p>···</p></li>
+            <ul class="col-sm-6 clear-mrg">
+              {% for desc in edu.descriptions[0] %}
+              <li><p>{{ desc }}</p></li>
+              {% endfor %}
             </ul>
-
-            <p><strong>动手能力</strong>优秀，在各门实验课程中取得高分：</p>
-            <ul>
-              <li><p>高级语言程序设计实验：92</p></li>
-              <li><p>Java 程序设计实验：93</p></li>
-              <li><p>操作系统原理实验：96</p></li>
-              <li><p>网络程序设计实验：90</p></li>
-              <li><p>C++ 程序设计实验：97</p></li>
-              <li><p>计算机网络实验：92</p></li>
-              <li><p>数据库系统原理实验：90</p></li>
-              <li><p>网络工程与组网技术实验：96</p></li>
-              <li><p>计算机组成原理实验：100</p></li>
+            <ul class="col-sm-6 clear-mrg">
+              {% for desc in edu.descriptions[1] %}
+              <li><p>{{ desc }}</p></li>
+              {% endfor %}
             </ul>
-
-            <p>
-              <strong>协作能力</strong
-              >突出，担任大学期间所有课程设计大作业的<strong>组长</strong>，完成过许多受到授课老师认可的作品。
-            </p>
           </blockquote>
         </div>
       </div>
+      {% endfor %}
     </div>
   </div>
 </section>
