@@ -4,92 +4,24 @@
       <h2 class="title-thin text-muted">获奖情况</h2>
       <br />
       <div class="education">
+        {% for comp in site.competitions reversed %}
         <div class="education-box">
-          <time class="education-date education-date-month" datetime="2020-08">
-            <span>Aug 2020</span>
+          {% if comp.yearmonth %}
+          <time class="education-date education-date-month">
+            <span>{{ comp.yearmonth }}</span>
           </time>
+          {% else %}
+          <time class="education-date education-date-year">
+            <span><strong class="text-upper">{{ comp.year }}</strong></span>
+          </time>
+          {% endif %} {% for reward in comp.rewards %}
           <p>
-            中国高校计算机大赛-网络技术挑战赛
-            <strong>一等奖</strong>
+            {{ reward.name }}
+            <strong>{{ reward.rank }}</strong>
           </p>
+          {% endfor %}
         </div>
-
-        <div class="education-box">
-          <time class="education-date education-date-month" datetime="2019-12">
-            <span>Dec 2019</span>
-          </time>
-          <p>
-            <strong>全国大学生“腾讯杯”人机 debug 测试大赛总决赛</strong>
-            <strong>第一名</strong>
-          </p>
-          <p>
-            <strong>全国大学生软件测试大赛开发者测试全国总决赛</strong>
-            <strong>二等奖</strong>
-          </p>
-        </div>
-
-        <div class="education-box">
-          <time class="education-date education-date-month" datetime="2019-11">
-            <span>Nov 2019</span>
-          </time>
-          <p>
-            全国大学生软件测试大赛开发者测试广东省赛区省赛
-            <strong>二等奖</strong>
-          </p>
-          <p>
-            全国大学生软件测试大赛嵌入式测试广东省赛区省赛
-            <strong>三等奖</strong>
-          </p>
-        </div>
-
-        <div class="education-box">
-          <time class="education-date education-date-month" datetime="2019-04">
-            <span>Apr 2019</span>
-          </time>
-          <p>
-            “嘉诚-高顿杯”广东省大学生物流设计大赛决赛
-            <strong>一等奖</strong>
-          </p>
-        </div>
-
-        <div class="education-box">
-          <time class="education-date education-date-month" datetime="2018-06">
-            <span>Jun 2018</span>
-          </time>
-          <p>“赢在创新”暨南大学创新大赛总决赛 <strong>一等奖</strong></p>
-        </div>
-
-        <div class="education-box">
-          <time class="education-date education-date-month" datetime="2018-05">
-            <span>May 2018</span>
-          </time>
-          <p>
-            “赢在创新”暨南大学创新大赛暨暨南大学创业路演大会
-            <strong>最佳项目奖</strong>
-          </p>
-          <p>“挑战杯·创青春”广东省大学生创业大赛 <strong>铜奖</strong></p>
-        </div>
-
-        <div class="education-box">
-          <time class="education-date education-date-month" datetime="2018-04">
-            <span>Apr 2018</span>
-          </time>
-          <p>暨南大学 ACM 程序设计大赛 <strong>第五名</strong></p>
-        </div>
-
-        <div class="education-box">
-          <time class="education-date education-date-month" datetime="2018-01">
-            <span>Jan 2018</span>
-          </time>
-          <p>暨南大学 ACM 新生赛 <strong>第五名</strong></p>
-        </div>
-
-        <div class="education-box">
-          <time class="education-date education-date-year" datetime="2018">
-            <span><strong class="text-upper">2018</strong></span>
-          </time>
-          <p>暨南大学优秀学生干部奖学金</p>
-        </div>
+        {% endfor %}
       </div>
     </div>
   </div>

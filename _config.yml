@@ -57,6 +57,73 @@ educations:
     duty:
     avatar: '/styles/img/xdu.jpg'
     descriptions:
+competitions:
+  - yearmonth: Nov 2017
+    rewards:
+      - name: 暨南大学港澳台侨学生创新创业大赛总决赛
+        rank: 三等奖
+  - year: 2018
+    rewards:
+      - name: 暨南大学优秀学生干部奖学金
+  - yearmonth: Jan 2018
+    rewards:
+      - name: 暨南大学 ACM 新生赛
+        rank: 第五名
+  - yearmonth: Apr 2018
+    rewards:
+      - name: 暨南大学 ACM 程序设计大赛
+        rank: 第五名
+  - yearmonth: May 2018
+    rewards:
+      - name: “赢在创新”暨南大学创新大赛暨暨南大学创业路演大会
+        rank: 最佳项目奖
+      - name: “挑战杯·创青春”广东省大学生创业大赛
+        rank: 铜奖
+  - yearmonth: Jun 2018
+    rewards:
+      - name: “赢在创新”暨南大学创新大赛总决赛
+        rank: 一等奖
+  - year: 2019
+    rewards:
+      - name: 暨南大学优秀学生一等奖学金
+      - name: 暨南大学优秀学生荣誉称号
+      - name: 暨南大学金龙鱼（本科人才创新专项）奖学金
+      - name: 暨南大学 5A 优秀学子奖励计划创业之星提名奖
+  - yearmonth: Apr 2019
+    rewards:
+      - name: “嘉诚-高顿杯”粤港澳大湾区大学生物流设计大赛决赛
+        rank: 一等奖
+  - yearmonth: Nov 2019
+    rewards:
+      - name: 全国大学生软件测试大赛开发者测试广东省赛区省赛
+        rank: 二等奖
+      - name: 全国大学生软件测试大赛嵌入式测试广东省赛区省赛
+        rank: 三等奖
+  - yearmonth: Dec 2019
+    rewards:
+      - name: 全国大学生“腾讯杯”人机 debug 测试大赛总决赛
+        rank: 第一名
+      - name: 全国大学生软件测试大赛开发者测试全国总决赛
+        rank: 第十二名
+  - year: 2020
+    rewards:
+      - name: 暨南大学毕业班优秀学生一等奖学金
+  - yearmonth: Aug 2020
+    rewards:
+      - name: 中国高校计算机大赛-网络技术挑战赛华南赛区选拔赛
+        rank: 一等奖
+  - yearmonth: Sept 2020
+    rewards:
+      - name: 中国高校计算机大赛-网络技术挑战赛总决赛
+        rank: 三等奖
+  - yearmonth: Oct 2020
+    rewards:
+      - name: 蓝桥杯大赛软件类广东省赛区省赛
+        rank: 二等奖
+  - yearmonth: Nov 2020
+    rewards:
+      - name: 全国大学生软件测试大赛 Web 应用测试复赛
+        rank: 优胜奖
 
 exclude:
   ['LICENSE', 'package.json', 'package-lock.json', 'commitlint.config.js']
