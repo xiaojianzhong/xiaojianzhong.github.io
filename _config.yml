@@ -162,4 +162,10 @@ competitions:
         rank: 优胜奖
 
 exclude:
-  ['LICENSE', 'package.json', 'package-lock.json', 'commitlint.config.js']
+  [
+    'LICENSE',
+    'package.json',
+    'package-lock.json',
+    'commitlint.config.js',
+    'node_modules',
+  ]
