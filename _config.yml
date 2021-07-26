@@ -2,27 +2,23 @@
 baseurl: ''
 
 name: 钟晓键
+location: 广州
+grade: 研一
 gender: 男
 birthday:
   year: 1999
   month: Apr
   day: 5
-hometown: 广东汕头
-location: 广州
-political: 共青团员
-faculty: 信息科学技术学院
-department: 计算机科学系
-major: 网络工程
-grade: 大三
-school: 暨南大学
-githubname: azxj
-github: github.com/azxj
 phone: 13042025045
 WeChat: ZXJ1158257471
 QQ: 1158257471
 emails:
   - ZXJ13413431649@gmail.com
   - 1158257471@qq.com
+github: github.com/azxj
+githubname: azxj
+English: 'CET-6（545分）'
+GPA: '3.88（大三 4.38，大四 4.46）'
 educations:
   - faculty: 信息科学技术学院
     department: 计算机科学系
