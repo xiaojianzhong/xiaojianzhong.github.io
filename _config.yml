@@ -247,7 +247,7 @@ skills:
       points: 10
     - name: Docker
       points: 8
-professions:
+professionals:
   - 熟练使用 <strong>Go 语言</strong>及其标准库，了解 <a href="https://github.com/go-gorm/gorm">Gorm</a>、<a href="https://github.com/gin-gonic/gin">Gin</a>、<a href="https://github.com/go-redis/redis">Go-Redis</a> 等第三方库，拥有扎实的编程能力
   - 熟悉 <strong>SQL</strong> 的基本语法与 <strong>MySQL</strong>、<strong>Redis</strong>、<strong>MongoDB</strong> 等 SQL/NoSQL 数据库的使用方法和基本原理
   - 熟悉 <strong>HTTP 协议</strong>、<strong>认证（cookie、session、JWT）</strong>、<strong>授权（OAuth）</strong>、<strong>安全</strong>、<strong>持久化</strong>等后台开发的必备知识，理解 web 服务器框架的工作原理，了解 <strong>RESTful</strong>、GraphQL 等风格 API 接口的设计方法
