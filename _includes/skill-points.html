@@ -3,143 +3,28 @@
     <div class="clear-mrg">
       <h2 class="title-thin text-muted">技能点</h2>
 
+      {% for skills in site.skills %}
       <div class="col-sm-6 clear-mrg">
+        {% for skill in skills %}
         <div
           class="progress-bullets crt-animate"
           role="progressbar"
-          aria-valuenow="10"
+          aria-valuenow="{{ skill.points }}"
           aria-valuemin="0"
           aria-valuemax="10"
         >
-          <strong class="progress-title">Golang</strong>
+          <strong class="progress-title">{{ skill.name }}</strong>
           <span class="progress-bar">
+            {% for i in (1..10) %} {% if i <= skill.points %}
             <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
+            {% else %}
+            <span class="bullet"></span>
+            {% endif %} {% endfor %}
           </span>
         </div>
-
-        <div
-          class="progress-bullets crt-animate"
-          role="progressbar"
-          aria-valuenow="9"
-          aria-valuemin="0"
-          aria-valuemax="10"
-        >
-          <strong class="progress-title"
-            >Database（MySQL / Redis / MongoDB）</strong
-          >
-          <span class="progress-bar">
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet"></span>
-          </span>
-        </div>
-
-        <div
-          class="progress-bullets crt-animate"
-          role="progressbar"
-          aria-valuenow="8"
-          aria-valuemin="0"
-          aria-valuemax="10"
-        >
-          <strong class="progress-title">Linux / shell</strong>
-          <span class="progress-bar">
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet"></span>
-            <span class="bullet"></span>
-          </span>
-        </div>
+        {% endfor %}
       </div>
-
-      <div class="col-sm-6 clear-mrg">
-        <div
-          class="progress-bullets crt-animate"
-          role="progressbar"
-          aria-valuenow="8"
-          aria-valuemin="0"
-          aria-valuemax="10"
-        >
-          <strong class="progress-title">Markdown</strong>
-          <span class="progress-bar">
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-          </span>
-        </div>
-
-        <div
-          class="progress-bullets crt-animate"
-          role="progressbar"
-          aria-valuenow="10"
-          aria-valuemin="0"
-          aria-valuemax="10"
-        >
-          <strong class="progress-title">VCS（Git / GitHub）</strong>
-          <span class="progress-bar">
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-          </span>
-        </div>
-
-        <div
-          class="progress-bullets crt-animate"
-          role="progressbar"
-          aria-valuenow="8"
-          aria-valuemin="0"
-          aria-valuemax="10"
-        >
-          <strong class="progress-title">Docker</strong>
-          <span class="progress-bar">
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet fill"></span>
-            <span class="bullet"></span>
-            <span class="bullet"></span>
-          </span>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>

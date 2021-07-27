@@ -234,6 +234,19 @@ portfolios:
         descriptions:
           - 跨语言开源协议库移植
           - 作为大创项目立项
+skills:
+  - - name: Golang
+      points: 10
+    - name: Database（MySQL / Redis / MongoDB）
+      points: 9
+    - name: Linux / shell
+      points: 8
+  - - name: Markdown
+      points: 10
+    - name: VCS（Git / GitHub）
+      points: 10
+    - name: Docker
+      points: 8
 
 exclude:
   [
