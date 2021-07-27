@@ -16,84 +16,84 @@ emails:
   - 1158257471@qq.com
 github: github.com/azxj
 githubname: azxj
-English: 'CET-6（545分）'
-GPA: '3.88（大三 4.38，大四 4.46）'
+English: CET-6（545分）
+GPA: 3.88（大三 4.38，大四 4.46）
 educations:
   - faculty: 信息科学技术学院
     department: 计算机科学系
     major: 网络工程
     school: 暨南大学
-    period: 'Sept 2017 - Jun 2021'
+    period: Sept 2017 - Jun 2021
     duty: 学习委员
-    avatar: '/styles/img/jnu.jpg'
+    avatar: /styles/img/jnu.jpg
     descriptions:
-      - - '高级语言程序设计：93'
-        - '高级语言程序设计实验：92'
-        - 'C++ 程序设计：96'
-        - 'C++ 程序设计实验：97'
-        - 'Java 程序设计实验：93'
-        - 'Unix / Linux 使用：93'
-        - '操作系统原理：97'
-        - '操作系统原理实验：96'
-        - '计算机系统结构：95'
-        - '计算机组成原理实验：100'
-      - - '计算机网络：98'
-        - '计算机网络实验：92'
-        - '网络工程与组网技术：96'
-        - '网络工程与组网技术实验：96'
-        - '计算机专业英语：98'
-        - '机器学习与神经网络：100'
-        - '数字图像处理：92'
-        - '数据挖掘：95'
-        - '软件测试与质量保证：100'
-        - '计算机密码学：99'
-        - '毕业论文：94'
+      - - 高级语言程序设计：93
+        - 高级语言程序设计实验：92
+        - C++ 程序设计：96
+        - C++ 程序设计实验：97
+        - Java 程序设计实验：93
+        - Unix / Linux 使用：93
+        - 操作系统原理：97
+        - 操作系统原理实验：96
+        - 计算机系统结构：95
+        - 计算机组成原理实验：100
+      - - 计算机网络：98
+        - 计算机网络实验：92
+        - 网络工程与组网技术：96
+        - 网络工程与组网技术实验：96
+        - 计算机专业英语：98
+        - 机器学习与神经网络：100
+        - 数字图像处理：92
+        - 数据挖掘：95
+        - 软件测试与质量保证：100
+        - 计算机密码学：99
+        - 毕业论文：94
   - faculty: 广州研究院
     department: 电子信息
     major: 大数据与人工智能
     school: 西安电子科技大学
-    period: 'Sept 2021 - Jun 2024'
+    period: Sept 2021 - Jun 2024
     duty:
-    avatar: '/styles/img/xdu.jpg'
+    avatar: /styles/img/xdu.jpg
     descriptions:
 experiences:
-  - avatar: '/styles/img/experience/jinxing.png'
+  - avatar: /styles/img/experience/jinxing.png
     company: 进兴网络科技
     department:
-    period: 'Jun 2018 - Jun 2019'
+    period: Jun 2018 - Jun 2019
     job: 后台开发技术合伙人
     description:
     achievements:
-      - '搭建 C 端跨境物流服务平台，支撑起 10w+ 级别的用户量'
-      - '基于 MongoDB 搭建集运业务数据库'
-      - '协助对接 Alipay HK 接口'
-      - '参照菜⻦驿站业务模型设计并实现一套可用的快递仓储管理系统，适配快递入库设备编写了部分前端⻚面'
-      - '基于机器学习技术设计并训练货架位置推荐算法模型'
-      - '实现了一套 RESTful ⻛格的业务数据统计 API，在遇到性能瓶颈的时期通过数据库查询优化技术成倍提高了接口性能'
-  - avatar: '/styles/img/experience/times.png'
+      - 搭建 C 端跨境物流服务平台，支撑起 10w+ 级别的用户量
+      - 基于 MongoDB 搭建集运业务数据库
+      - 协助对接 Alipay HK 接口
+      - 参照菜⻦驿站业务模型设计并实现一套可用的快递仓储管理系统，适配快递入库设备编写了部分前端⻚面
+      - 基于 TensorFlow.js 设计并训练了一个货架位置推荐算法模型
+      - 实现了一套 RESTful ⻛格的业务数据统计 API，在遇到性能瓶颈的时期通过数据库查询优化技术成倍提高了接口性能
+  - avatar: /styles/img/experience/times.png
     company: 时丰物流
     department:
-    period: 'Jun 2019 - Dec 2019'
+    period: Jun 2019 - Dec 2019
     job: 系统运维
     description: '负责视频内容与特征中台微服务的开发、移植和重构工作：'
     achievements:
-      - '监控业务服务器资源负载、记录异常日志、管理定时任务'
-      - '协助完成集运物流系统迁移与部署'
-  - avatar: '/styles/img/experience/tencent.png'
+      - 监控业务服务器资源负载、记录异常日志、管理定时任务
+      - 协助完成集运物流系统迁移与部署
+  - avatar: /styles/img/experience/tencent.png
     company: 腾讯
     department: PCG/技术运营部
-    period: 'July 2020 - Sept 2020'
+    period: July 2020 - Sept 2020
     job: 运营开发暑期实习生
-    description: '负责视频内容与特征中台微服务的开发、移植和重构工作：'
+    description: 负责视频内容与特征中台微服务的开发、移植和重构工作：
     achievements:
-      - '移植任务管理服务，完成从 HTTP 协议到 RPC 协议的转换'
-      - '重构视频下载服务，多并发场景下 QPS 提高 62%，用户等待时间降低 38%，单测覆盖率达 96%+，CR 评级达 A'
-  - avatar: '/styles/img/experience/bytedance.jpg'
+      - 移植任务管理服务，完成从 HTTP 协议到 RPC 协议的转换
+      - 重构视频下载服务，多并发场景下 QPS 提高 62%，用户等待时间降低 38%，单测覆盖率达 96%+，CR 评级达 A
+  - avatar: /styles/img/experience/bytedance.jpg
     company: 字节跳动
     department: Data-架构
-    period: 'Sept 2020 - Dec 2020'
+    period: Sept 2020 - Dec 2020
     job: 系统架构研发实习生
-    description: '负责抖音、TikTok 推荐系统离线数据流建设和内容理解相关工作'
+    description: 负责抖音、TikTok 推荐系统离线数据流建设和内容理解相关工作
     achievements:
 competitions:
   - yearmonth: Nov 2017
