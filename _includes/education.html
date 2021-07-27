@@ -24,16 +24,13 @@
           </div>
 
           <blockquote class="ref-cont clear-mrg">
+            {% for descs in edu.descriptions %}
             <ul class="col-sm-6 clear-mrg">
-              {% for desc in edu.descriptions[0] %}
+              {% for desc in descs %}
               <li><p>{{ desc }}</p></li>
               {% endfor %}
             </ul>
-            <ul class="col-sm-6 clear-mrg">
-              {% for desc in edu.descriptions[1] %}
-              <li><p>{{ desc }}</p></li>
-              {% endfor %}
-            </ul>
+            {% endfor %}
           </blockquote>
         </div>
       </div>
