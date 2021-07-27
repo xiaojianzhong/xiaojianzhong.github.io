@@ -6,20 +6,12 @@
       {% for edu in site.educations reversed %}
       <div class="ref-box hreview">
         <div class="ref-avatar">
-          <img
-            alt=""
-            src="{{ edu.avatar }}"
-            class="avatar avatar-54 photo"
-            height="54"
-            width="54"
-          />
+          <img alt="" src="{{ edu.avatar }}" class="avatar avatar-54 photo" height="54" width="54" />
         </div>
 
         <div class="ref-info">
           <div class="ref-author">
-            <strong
-              >{{ edu.school }} {{ edu.department }} {{ edu.major }}</strong
-            >
+            <strong>{{ edu.school }} {{ edu.department }} {{ edu.major }}</strong>
             <span>{{ edu.period }}&nbsp;&nbsp;{{ edu.duty }}</span>
           </div>
 

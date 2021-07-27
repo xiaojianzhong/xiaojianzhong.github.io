@@ -260,11 +260,4 @@ professionals:
   - 拥有编程竞赛、软件测试竞赛与软件 debug 竞赛的参与、获奖经历，善于在代码中快速定位并解决错误
   - 参与过开源项目的部分翻译工作（中英互译），具备一定英文文档与英文文献的阅读能力
 
-exclude:
-  [
-    'LICENSE',
-    'package.json',
-    'package-lock.json',
-    'commitlint.config.js',
-    'node_modules',
-  ]
+exclude: ['LICENSE', 'package.json', 'package-lock.json', 'commitlint.config.js', 'node_modules']
