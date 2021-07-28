@@ -121,12 +121,6 @@ competitions:
     rewards:
       - name: “赢在创新”暨南大学创新大赛总决赛
         rank: 一等奖
-  - year: 2019
-    rewards:
-      - name: 暨南大学优秀学生一等奖学金
-      - name: 暨南大学优秀学生荣誉称号
-      - name: 暨南大学金龙鱼（本科人才创新专项）奖学金
-      - name: 暨南大学 5A 优秀学子奖励计划创业之星提名奖
   - yearmonth: Apr 2019
     rewards:
       - name: “嘉诚-高顿杯”粤港澳大湾区大学生物流设计大赛决赛
@@ -145,7 +139,10 @@ competitions:
         rank: 第十二名
   - year: 2020
     rewards:
-      - name: 暨南大学毕业班优秀学生一等奖学金
+      - name: 暨南大学优秀学生一等奖学金
+      - name: 暨南大学优秀学生荣誉称号
+      - name: 暨南大学金龙鱼（本科人才创新专项）奖学金
+      - name: 暨南大学 5A 优秀学子奖励计划创业之星提名奖
   - yearmonth: Aug 2020
     rewards:
       - name: 中国高校计算机大赛-网络技术挑战赛华南赛区选拔赛
@@ -162,6 +159,12 @@ competitions:
     rewards:
       - name: 全国大学生软件测试大赛 Web 应用测试复赛
         rank: 优胜奖
+  - year: 2021
+    rewards:
+      - name: 暨南大学毕业班优秀学生一等奖学金
+      - name: 2021 届信息科学技术学院优秀毕业生科技创新奖
+      - name: 2021 届暨南大学有作为、有贡献毕业生
+      - name: 暨南大学校级优秀毕业论文
 portfolios:
   - yearmonth: Feb 2018
     projects:
