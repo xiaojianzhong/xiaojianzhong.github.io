@@ -75,7 +75,7 @@ experiences:
     department:
     period: Jun 2019 - Dec 2019
     job: 系统运维
-    description: '负责视频内容与特征中台微服务的开发、移植和重构工作：'
+    description:
     achievements:
       - 监控业务服务器资源负载、记录异常日志、管理定时任务
       - 协助完成集运物流系统迁移与部署
