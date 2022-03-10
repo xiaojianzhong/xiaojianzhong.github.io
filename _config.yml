@@ -56,6 +56,9 @@ educations:
     duty:
     avatar: /styles/img/xdu.jpg
     descriptions:
+      - - 机器学习理论与实践：97.6
+        - 图像工程：96
+        - 人工智能创新实验：93
 experiences:
   - avatar: /styles/img/experience/jinxing.png
     company: 进兴网络科技
