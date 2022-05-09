@@ -168,6 +168,10 @@ competitions:
       - name: 2021 届信息科学技术学院优秀毕业生科技创新奖
       - name: 2021 届暨南大学有作为、有贡献毕业生
       - name: 暨南大学校级优秀毕业论文
+  - yearmonth: Aug 2021
+    rewards:
+      - name: 商汤 OpenMMLab 算法生态挑战赛
+        rank: 季军
 portfolios:
   - yearmonth: Feb 2018
     projects:
@@ -242,6 +246,11 @@ portfolios:
         descriptions:
           - 跨语言开源协议库移植
           - 作为大创项目立项
+  - yearmonth: Aug 2021
+    projects:
+      - name: <a href="https://github.com/azxj/SFNet" target="_blank">基于 MMSegmentation 的 SFNet 复现</a>
+        descriptions:
+          - 赢得 2021 年商汤 OpenMMLab 算法生态挑战赛 季军
 skills:
   - - name: Golang
       points: 10
