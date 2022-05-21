@@ -1,5 +1,5 @@
 {
-  "name": "azxj.github.io",
+  "name": "xiaojianzhong.github.io",
   "version": "1.0.0",
   "description": "Personal resume page.",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azxj/azxj.github.io.git"
+    "url": "https://github.com/xiaojianzhong/xiaojianzhong.github.io.git"
   },
-  "author": "azxj <1158257471@qq.com>",
+  "author": "xiaojianzhong <xiaojianzhong@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azxj/azxj.github.io/issues"
+    "url": "https://github.com/xiaojianzhong/xiaojianzhong.github.io/issues"
   },
-  "homepage": "https://github.com/azxj/azxj.github.io#readme",
+  "homepage": "https://github.com/xiaojianzhong/xiaojianzhong.github.io#readme",
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-angular": "^8.3.4",

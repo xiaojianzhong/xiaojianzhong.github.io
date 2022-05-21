@@ -12,10 +12,9 @@ phone: 13042025045
 WeChat: ZXJ1158257471
 QQ: 1158257471
 emails:
-  - ZXJ13413431649@gmail.com
-  - 1158257471@qq.com
-github: github.com/azxj
-githubname: azxj
+  - xiaojian.zhong@outlook.com
+github: github.com/xiaojianzhong
+githubname: xiaojianzhong
 English: CET-6（545分）
 GPA: 3.88（大三 4.38，大四 4.46）
 educations:
@@ -180,7 +179,7 @@ portfolios:
           - Java GUI 程序开发
   - yearmonth: Jul 2019
     projects:
-      - name: <a href="https://github.com/azxj/automatic-examination-system" target="_blank">基于 C++ MVC 的自动化考试系统 AES</a>
+      - name: <a href="https://github.com/xiaojianzhong/automatic-examination-system" target="_blank">基于 C++ MVC 的自动化考试系统 AES</a>
         descriptions:
           - 文件数据库驱动层实现 & 视图层实现
       - name: 基于 asm 汇编语言的简易英英词典 E2E Dictionary
@@ -204,10 +203,10 @@ portfolios:
           - 数据库设计负责人
   - yearmonth: Mar 2020
     projects:
-      - name: <a href="https://github.com/azxj/matlab-deep-learning" target="_blank">《MATLAB DEEP LEARNING》源代码</a>
+      - name: <a href="https://github.com/xiaojianzhong/matlab-deep-learning" target="_blank">《MATLAB DEEP LEARNING》源代码</a>
         descriptions:
           - 机器学习算法实现 & 中文文档补充
-      - name: <a href="https://github.com/azxj/jnu-jwxt-captcha-breaker" target="_blank">暨南大学教务系统验证码解析模型</a>
+      - name: <a href="https://github.com/xiaojianzhong/jnu-jwxt-captcha-breaker" target="_blank">暨南大学教务系统验证码解析模型</a>
         descriptions:
           - 字符识别模型设计与实现 & 准确率测试
       - name: 关于暨南大学学生职业规划的跨年级意见交流平台——暨望小程序
@@ -215,7 +214,7 @@ portfolios:
           - 小程序前后端开发
   - yearmonth: Apr 2020
     projects:
-      - name: <a href="https://github.com/azxj/gokoa" target="_blank">Koa 风格的 Go web 框架 GoKoa</a>
+      - name: <a href="https://github.com/xiaojianzhong/gokoa" target="_blank">Koa 风格的 Go web 框架 GoKoa</a>
         descriptions:
           - 框架设计与开发
   - yearmonth: Jun 2020
@@ -248,7 +247,7 @@ portfolios:
           - 作为大创项目立项
   - yearmonth: Aug 2021
     projects:
-      - name: <a href="https://github.com/azxj/SFNet" target="_blank">基于 MMSegmentation 的 SFNet 复现</a>
+      - name: <a href="https://github.com/xiaojianzhong/SFNet" target="_blank">基于 MMSegmentation 的 SFNet 复现</a>
         descriptions:
           - 赢得 2021 年商汤 OpenMMLab 算法生态挑战赛 季军
 skills:
