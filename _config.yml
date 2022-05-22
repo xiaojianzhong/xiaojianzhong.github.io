@@ -13,9 +13,15 @@ WeChat: ZXJ1158257471
 QQ: 1158257471
 emails:
   - xiaojian.zhong@outlook.com
-github: github.com/xiaojianzhong
-leetcode: leetcode.cn/u/xiaojian-zhong
-zhihu: www.zhihu.com/people/zhong-xiaojian
+github:
+  - url: github.com/xiaojianzhong
+  - name: Xiaojian Zhong
+leetcode:
+  - url: leetcode.cn/u/xiaojian-zhong
+  - name: 钟晓键
+zhihu:
+  - url: www.zhihu.com/people/zhong-xiaojian
+  - name: 钟晓键
 English: CET-6（545分）
 GPA: 3.88（大三 4.38，大四 4.46）
 educations:
