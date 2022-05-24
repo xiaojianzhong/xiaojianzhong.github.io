@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/xiaojianzhong/xiaojianzhong.github.io#readme",
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-angular": "^8.3.4",
-    "@commitlint/prompt-cli": "^13.1.0",
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-angular": "^17.0.0",
+    "@commitlint/prompt-cli": "^17.0.0",
     "husky": "^4.2.3",
     "prettier": "1.19.1",
     "pretty-quick": "^2.0.1"
