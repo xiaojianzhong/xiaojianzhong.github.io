@@ -3,29 +3,10 @@
     <img class="avatar avatar-195" src="/styles/img/portrait.jpg" width="195" height="195" alt="" />
     <h1>{{ site.fullname }}</h1>
     <p class="text-muted">
-      {{ site.location }} | {{ site.educations[-1].school }} | {{ site.grade }}
+      {{ site.gender }} | {{ site.birthday.year }}/{{ site.birthday.month }}/{{ site.birthday.day }} | {{site.location}}
     </p>
-    <ul class="ace-social clear-list">
-      <li>
-        <a href="https://{{ site.github.url }}" title="{{ site.github.name }}" target="_blank">
-          <span class="ace-icon ace-icon-github"></span>
-        </a>
-      </li>
-      <li>
-        <a title="{{ site.phone }}">
-          <span class="ace-icon ace-icon-phone"></span>
-        </a>
-      </li>
-      <li>
-        <a href="mailto:{{ site.emails[0]}}" title="{{ site.emails[0]}}" target="_blank">
-          <span class="ace-icon ace-icon-contact"></span>
-        </a>
-      </li>
-    </ul>
   </div>
   <footer class="ace-card-footer">
     <a class="btn btn-lg btn-block btn-thin btn-upper" href="index.html">下载中文简历</a>
-    <br />
-    <a class="btn btn-lg btn-block btn-thin btn-upper" href="index.html">下载英文简历</a>
   </footer>
 </article>
