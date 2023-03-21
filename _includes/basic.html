@@ -1,18 +1,10 @@
 <section class="section brd-btm" id="basic">
   <div class="row">
     <div class="col-sm-6 clear-mrg">
-      <h2 class="title-thin text-muted">基本信息</h2>
+      <h2 class="title-thin text-muted">联系方式</h2>
 
       <dl class="dl-horizontal clear-mrg">
-        <dt class="text-upper">性别</dt>
-        <dd>{{ site.gender }}</dd>
-
-        <dt class="text-upper">出生日期</dt>
-        <dd>
-          {{ site.birthday.day }} {{ site.birthday.month }} {{ site.birthday.year }}
-        </dd>
-
-        <dt class="text-upper">手机</dt>
+        <dt class="text-upper">手机 <span class="ace-icon ace-icon-phone"></span></dt>
         <dd>{{ site.phone }}</dd>
 
         <dt class="text-upper">微信</dt>
@@ -21,14 +13,14 @@
         <dt class="text-upper">QQ</dt>
         <dd>{{ site.QQ }}</dd>
 
-        <dt class="text-upper">e-mail</dt>
+        <dt class="text-upper">e-mail <span class="ace-icon ace-icon-contact"></span></dt>
         <dd>
           {% for email in site.emails %}
           <a href="mailto:{{ email }}">{{ email }}</a>
           {% endfor %}
         </dd>
 
-        <dt class="text-upper">GitHub</dt>
+        <dt class="text-upper">GitHub <span class="ace-icon ace-icon-github"></span></dt>
         <dd>
           <a href="https://{{ site.github.url }}" target="_blank">{{ site.github.name }}</a>
         </dd>
@@ -42,12 +34,6 @@
         <dd>
           <a href="https://{{ site.zhihu.url }}" target="_blank">{{ site.zhihu.name }}</a>
         </dd>
-
-        <dt class="text-upper">英语</dt>
-        <dd>{{ site.English }}</dd>
-
-        <dt class="text-upper">GPA</dt>
-        <dd>{{ site.GPA }}</dd>
       </dl>
     </div>
   </div>
