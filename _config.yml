@@ -156,6 +156,11 @@ competitions:
     rewards:
       - name: 商汤 OpenMMLab 算法生态挑战赛
         rank: 季军
+  - year: 2022
+    rewards:
+      - name: 西安电子科技大学优秀研究生
+      - name: 西安电子科技大学一等学业奖学金
+      - name: 西安电子科技大学优秀硕士推免生专项奖学金
 portfolios:
   - yearmonth: Feb 2018
     projects:
