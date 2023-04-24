@@ -20,7 +20,7 @@
     "@commitlint/cli": "^17.0.0",
     "@commitlint/config-angular": "^17.0.0",
     "@commitlint/prompt-cli": "^17.0.0",
-    "husky": "^4.2.3",
+    "husky": "^8.0.3",
     "prettier": "1.19.1",
     "pretty-quick": "^2.0.1"
   },
