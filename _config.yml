@@ -1,18 +1,17 @@
 title: 钟晓键 西安电子科技大学
 
 fullname: 钟晓键
-location: 西安
-grade: 研二
 gender: 男
 birthday:
-  year: '1999'
-  month: '04'
-  day: '05'
+  year: 1999
+  month: 04
+  day: 05
+origin: 广东
+
 phone: +86 13042025045
-WeChat: ZXJ1158257471
-QQ: 1158257471
-emails:
-  - xiaojian.zhong@outlook.com
+wechat: ZXJ1158257471
+qq: 1158257471
+email: xiaojian.zhong@outlook.com
 github:
   url: github.com/xiaojianzhong
   name: Xiaojian Zhong
@@ -22,6 +21,7 @@ leetcode:
 zhihu:
   url: www.zhihu.com/people/zhong-xiaojian
   name: 钟晓键
+
 educations:
   - faculty: 信息科学技术学院
     major: 网络工程
