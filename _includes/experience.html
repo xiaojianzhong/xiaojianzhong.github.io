@@ -1,7 +1,7 @@
 <section class="section brd-btm" id="experience">
   <div class="row">
     <div class="col-sm-12 clear-mrg">
-      <h2 class="title-thin text-muted">实践经历</h2>
+      <h2 class="title-thin text-muted">实习经历</h2>
 
       {% for exp in site.experiences reversed %}
       <div class="ref-box hreview">
@@ -11,16 +11,15 @@
 
         <div class="ref-info">
           <div class="ref-author">
-            <strong>{{ exp.company }} {{ exp.department }}</strong>
-            <span>{{ exp.period }}&nbsp;&nbsp;{{ exp.job }}</span>
+            <strong>{{ exp.company }}&nbsp;{{ exp.department }}&nbsp;-&nbsp;{{ exp.job }}</strong>
+            <span>{{ exp.period.from }}&nbsp;~&nbsp;{{ exp.period.to }}</span>
           </div>
 
           <blockquote class="ref-cont clear-mrg">
-            <p>{{ exp.description }}</p>
             <ul>
-              {% for ach in exp.achievements %}
+              {% for desc in exp.descriptions %}
               <li>
-                <p>{{ ach }}</p>
+                <p>{{ desc }}</p>
               </li>
               {% endfor %}
             </ul>
