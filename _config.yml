@@ -59,12 +59,7 @@ experiences:
       from: 2018/06
       to: 2019/06
     descriptions:
-      - 基于 Node.js 搭建 C 端跨境物流平台，支撑 10w+ 在港用户使用
-      - 基于 MongoDB 搭建集运业务数据库
-      - 设计 RESTful API 用于业务逻辑与数据统计
-      - 协助对接 Alipay HK 接口
-      - 参照菜⻦驿站业务模型，设计并实现一套快递仓储管理系统，适配仓储手持 PDA 编写前端页面
-      - 在性能瓶颈时期，通过数据库查询优化技术成倍提高 API 性能
+      - 基于 Node.js 搭建 C 端跨境物流平台，设计 RESTful API，适配仓储手持 PDA 编写前端页面，支撑 10w+ 在港用户使用
   - avatar: /styles/img/experience/times.png
     company: 时丰物流
     department: GetU 集运物流部
