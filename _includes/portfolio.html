@@ -11,7 +11,9 @@
           {% for proj in port.projects %}
           <p>
             <strong>{{ proj.name }}</strong>
-            {% for desc in proj.descriptions %}
+            {% if proj.organization %}
+            <br />--- <span>{{ proj.organization }}</span>
+            {% endif %} {% for desc in proj.descriptions %}
             <br />
             <span>{{ desc }}</span>
             {% endfor %}

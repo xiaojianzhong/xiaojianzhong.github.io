@@ -98,6 +98,118 @@ experiences:
       to: 2023/09
     descriptions:
 
+portfolios:
+  - yearmonth: 2018/02
+    projects:
+      - name: 线性代数矩阵计算器 Matrix Calculator
+        descriptions:
+          - Java GUI 程序开发
+  - yearmonth: 2019/07
+    projects:
+      - name: 自动化考试系统 Automatic Examination System
+        descriptions:
+          - C++ MVC 架构
+          - 文件数据库驱动层实现 & 视图层实现
+      - name: 简易英英词典 E2E Dictionary
+        descriptions:
+          - ASM 汇编程序开发
+  - yearmonth: 2019/12
+    projects:
+      - name: 中港跨境物流集运平台——货多多集运
+        descriptions:
+          - 基于 Node.js 搭建 C 端跨境物流平台，支撑 10w+ 在港用户使用
+          - 基于 MongoDB 搭建集运业务数据库
+          - 设计 RESTful API 用于业务逻辑与数据统计
+          - 协助对接 Alipay HK 接口
+          - 参照菜⻦驿站业务模型，设计并实现一套快递仓储管理系统
+          - 适配仓储手持 PDA 编写前端页面
+          - 在性能瓶颈时期，通过数据库查询优化技术成倍提高 API 性能
+  - yearmonth: 2020/02
+    projects:
+      - name: 网络聊天室 chatroom
+        descriptions:
+          - Golang Socket C/S 端网络通信程序开发
+      - name: 在线电商网购管理系统 E Commerce
+        descriptions:
+          - 数据库表结构设计 & JDBC 程序开发 & Java GUI 程序开发
+      - name: 菜⻦驿站数据库设计方案
+        descriptions:
+          - 需求分析 & 数据库概念结构、逻辑结构、物理结构设计
+  - yearmonth: 2020/03
+    projects:
+      - name: <a href="https://github.com/xiaojianzhong/matlab-deep-learning" target="_blank">《MATLAB Deep Learning》课程教材示例代码</a>
+        descriptions:
+          - 为 Sigmoid、SGD、BN 等深度学习组件添加 Python、Golang、R 共三种语言的实例代码、中文注释和说明文档
+      - name: <a href="https://github.com/xiaojianzhong/jnu-jwxt-captcha-breaker" target="_blank">暨南大学教务系统验证码解析模型</a>
+        descriptions:
+          - 字符识别模型设计 & TensorFlow.js 实现 & 准确率测试
+      - name: 关于暨南大学学生职业规划的跨年级意见交流平台——暨望小程序
+        descriptions:
+          - 微信小程序前后端开发
+  - yearmonth: 2020/04
+    projects:
+      - name: <a href="https://github.com/xiaojianzhong/gokoa" target="_blank">Koa 风格的 Go web 框架 GoKoa</a>
+  - yearmonth: 2020/07
+    projects:
+      - name: <a href="https://github.com/xiaojianzhong/emoji-hunter" target="_blank">移动端摄像 emoji 识别分类游戏 Emoji Hunter</a>
+        descriptions:
+          - 量化对比 SqueezeNet、MobileNet 等轻量级图像分类模型，使用网格搜索策略调优学习率、宽度乘子等超参数
+          - 基于 TensorFlow.js 将分类模型部署至手机端浏览器，在 webcam 后置摄像头画面中实时识别 emoji
+          - 游戏前端页面开发
+          - 针对背景细小物体对分类精度的影响，调用百度图像主体识别 API，裁剪主体区域以忽略背景，一定程度上降低误识别率
+          - 撰写 emoji 数据集构建指南，搭建图片收集平台，引导 4 名组员在 7 天内高效收集了 60+ 个 emoji 的 60k+ 张网络图片
+      - name: Bilibili 视频弹幕网站系统数据仓库设计方案
+  - yearmonth: 2020/08
+    projects:
+      - name: 基于 DNN 划分的低时延车辆边缘协同计算服务
+        descriptions:
+          - 系统架构设计 & 基于 socket 的 C/S 端程序实现
+          - 赢得 2020 年中国高校计算机大赛-网络技术挑战赛 一等奖
+      - name: 基于 QUIC 的 SDN 网络交互协议优化研究与实现
+        descriptions:
+          - 跨语言开源协议库移植
+  - yearmonth: 2021/06
+    projects:
+      - name: 融合星群多源异质遥感图像的在轨联合解译技术研究
+        organization: 国防科技 173 计划
+        descriptions:
+          - 协助开发遥感图像场景分类框架，实验对比 VGG、ResNet、DenseNet、Xception 等图像分类模型的精度水平
+          - 鉴于卫星图像分辨率过大，采取混合精度训练、原地算子、梯度累积等显存优化策略，有效扩增单机 batch size 容量
+  - yearmonth: 2021/07
+    projects:
+      - name: <a href="https://github.com/xiaojianzhong/awesome-weakly-supervised-semantic-segmentation" target="_blank">Awesome Weakly Supervised Semantic Segmentation</a>
+        descriptions:
+          - 调研、分类、汇总、收录 2014～2022 年弱监督语义分割领域 105 篇顶会顶刊论文
+          - GitHub 仓库获 100+ stars
+  - yearmonth: 2022/03
+    projects:
+      - name: 「空地一体化」环境监测污染溯源平台
+        organization: 石家庄市政府环保厅
+        descriptions:
+          - 使用轻量级模型 YOLOv5-Lite-s 检测渣土车与露天堆放垃圾，结合气体浓度传感器实现环境污染初步溯源
+          - 针对卡车与渣土车类间差距过小的问题，采取 CutMix 离线数据增强策略加入大量训练负样本，目标误检率降低 30%+
+          - 基于 OpenCV 开发简易 rtsp 图传服务器，拉取无人机摄像头视频码流，将板卡检测结果回传至地面端，实现秒级可视化
+  - yearmonth: 2022/09
+    projects:
+      - name: <a href="https://github.com/xiaojianzhong/nstat" target="_blank">基于 C/S 架构的 GPU 资源统计平台 nstat</a>
+        descriptions:
+          - 客户端使用 gpustat 库查询 GPU 温度、功率、负载、显存占用等资源信息
+          - 服务器端通过 HTTP 协议进行汇总和可视化
+      - name: 海战导弹末段制导边缘端人工智能开发板
+        organization: 西安市兵工 203 研究所
+        descriptions:
+          - 考虑到视频切帧后构成的训练集规模庞大，使用 PyTorch DP / DDP 分布式训练工具实现两台双卡 3090ti 服务器上的单机多卡 / 多机多卡数据并行，缩短单次训练时间至两天内，显著提升模型训练速度与 GPU 利用效率，加速方案迭代周期
+          - 顺应国产化需求，使用 onnx、onnxruntime、onnx-simplifier、netron 等工具实现从 PyTorch、ONNX 到 OM 的模型格式转换，适配国产昇腾 310 芯片，部署至弹载华为开发板 Altas 200 DK
+  - yearmonth: 2023/01
+    projects:
+      - name: 秦岭北麓植被分类与病虫害分割
+        organization: 西安市林业局
+        descriptions:
+          - 独立开发遥感图像语义分割框架 <a href="https://github.com/xiaojianzhong/rsi-semantic-segmentation" target="_blank">rsi-semantic-segmentation</a>，支持 FCN、DeepLab、U-Net、PSPNet 等分割模型
+          - 鉴于常规模型不符合实时性要求，使用 Fast-SCNN、BiSeNet V2、LEDNet 等轻量级语义分割模型识别病虫害区域
+          - 使用 trtexec、torch2trt 将模型从 PyTorch 转换为 TensorRT 格式，重写 AdaptiveAvgPool2d 算子转换函数，尝试「后训练量化 + L1 全局剪枝」实现模型压缩加速，部署至无人机载智能板卡 Nvidia Xavier NX，实现 1080p/15fps 弱实时推理
+          - 设计双无人机联合成像（可见光+多光谱）系统，巡航监测分工协同，基于大疆 SDK 二次开发实现机间报文通信
+
   - yearmonth: Nov 2017
     rewards:
       - name: 暨南大学港澳台侨学生创新创业大赛总决赛
