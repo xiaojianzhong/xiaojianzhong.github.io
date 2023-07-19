@@ -210,163 +210,99 @@ portfolios:
           - 使用 trtexec、torch2trt 将模型从 PyTorch 转换为 TensorRT 格式，重写 AdaptiveAvgPool2d 算子转换函数，尝试「后训练量化 + L1 全局剪枝」实现模型压缩加速，部署至无人机载智能板卡 Nvidia Xavier NX，实现 1080p/15fps 弱实时推理
           - 设计双无人机联合成像（可见光+多光谱）系统，巡航监测分工协同，基于大疆 SDK 二次开发实现机间报文通信
 
-  - yearmonth: Nov 2017
+competitions:
+  - yearmonth: 2017/11
     rewards:
-      - name: 暨南大学港澳台侨学生创新创业大赛总决赛
-        rank: 三等奖
+      - name: 暨南大学港澳台侨学生创新创业大赛
+        rank: 校三等奖
   - year: 2018
     rewards:
       - name: 暨南大学优秀学生干部奖学金
-  - yearmonth: Jan 2018
+  - yearmonth: 2018/01
     rewards:
       - name: 暨南大学 ACM 新生赛
-        rank: 第五名
-  - yearmonth: Apr 2018
+        rank: 校第五名
+  - yearmonth: 2018/04
     rewards:
       - name: 暨南大学 ACM 程序设计大赛
-        rank: 第五名
-  - yearmonth: May 2018
+        rank: 校第五名
+  - yearmonth: 2018/05
     rewards:
-      - name: “赢在创新”暨南大学创新大赛暨暨南大学创业路演大会
-        rank: 最佳项目奖
-      - name: “挑战杯·创青春”广东省大学生创业大赛
-        rank: 铜奖
-  - yearmonth: Jun 2018
+      - name: 「挑战杯·创青春」中国大学生创业计划竞赛
+        rank: 广东省铜奖
+  - yearmonth: 2018/06
     rewards:
-      - name: “赢在创新”暨南大学创新大赛总决赛
-        rank: 一等奖
-  - yearmonth: Apr 2019
+      - name: 「赢在创新」暨南大学创新大赛
+        rank: 校一等奖 + 校最佳项目奖
+  - yearmonth: 2019/04
     rewards:
-      - name: “嘉诚-高顿杯”粤港澳大湾区大学生物流设计大赛决赛
-        rank: 一等奖
-  - yearmonth: Nov 2019
+      - name: 「嘉诚-高顿杯」粤港澳大湾区高校大学生物流设计大赛
+        rank: 广东省一等奖
+  - yearmonth: 2019/10
     rewards:
-      - name: 全国大学生软件测试大赛开发者测试广东省赛区省赛
-        rank: 二等奖
-      - name: 全国大学生软件测试大赛嵌入式测试广东省赛区省赛
-        rank: 三等奖
-  - yearmonth: Dec 2019
+      - name: 全国大学生软件测试大赛 - 开发者测试
+        rank: 广东省二等奖
+      - name: 全国大学生软件测试大赛 - 嵌入式测试
+        rank: 广东省三等奖
+  - yearmonth: 2019/12
     rewards:
-      - name: 全国大学生“腾讯杯”人机 debug 测试大赛总决赛
-        rank: 第一名
-      - name: 全国大学生软件测试大赛开发者测试全国总决赛
-        rank: 第十二名
+      - name: 全国大学生「腾讯杯」人机 debug 测试大赛
+        rank: 全国第一名
+      - name: 全国大学生软件测试大赛 - 开发者测试
+        rank: 全国第十二名
   - year: 2020
     rewards:
       - name: 暨南大学优秀学生一等奖学金
       - name: 暨南大学优秀学生荣誉称号
       - name: 暨南大学金龙鱼（本科人才创新专项）奖学金
       - name: 暨南大学 5A 优秀学子奖励计划创业之星提名奖
-  - yearmonth: Aug 2020
+  - yearmonth: 2020/07
     rewards:
-      - name: 中国高校计算机大赛-网络技术挑战赛华南赛区选拔赛
-        rank: 一等奖
-  - yearmonth: Sept 2020
+      - name: 中国高校计算机大赛 - 网络技术挑战赛
+        rank: 华南赛区一等奖
+  - yearmonth: 2020/10
     rewards:
-      - name: 中国高校计算机大赛-网络技术挑战赛总决赛
-        rank: 三等奖
-  - yearmonth: Oct 2020
+      - name: 蓝桥杯大赛 - 软件类
+        rank: 广东省二等奖
+  - yearmonth: 2020/11
     rewards:
-      - name: 蓝桥杯大赛软件类广东省赛区省赛
-        rank: 二等奖
-  - yearmonth: Nov 2020
-    rewards:
-      - name: 全国大学生软件测试大赛 Web 应用测试复赛
-        rank: 优胜奖
+      - name: 全国大学生软件测试大赛 - Web 应用测试
+        rank: 广东省优胜奖
   - year: 2021
     rewards:
       - name: 暨南大学毕业班优秀学生一等奖学金
       - name: 2021 届信息科学技术学院优秀毕业生科技创新奖
       - name: 2021 届暨南大学有作为、有贡献毕业生
       - name: 暨南大学校级优秀毕业论文
-  - yearmonth: Aug 2021
+  - yearmonth: 2021/08
     rewards:
       - name: 商汤 OpenMMLab 算法生态挑战赛
         rank: 季军
+        descriptions:
+          - 为 MMSegmentation 语义分割框架加入 ECCV 2020 论文 <a href="https://github.com/xiaojianzhong/SFNet" target="_blank">SFNet 复现支持</a>，各 backbone 下精度均达到原始论文水平
+  - yearmonth: 2021/09
+    rewards:
+      - name: 「中科星图杯」面向海洋一号可见光图像中海冰语义分割
+        descriptions:
+          - 针对大分辨率采取有重叠滑窗裁切方法制作训练集，使用 DeepLab v3+、PointRend 等语义分割模型划定海冰区域
+          - 观察到正负样本像素数量比例约为 1:4，尝试过采样正样本图像重置训练集，并使用 IoU 友好的 Dice Loss
+          - 观察到推理结果中海冰边缘表现较差，加入基于二分类交叉熵的边缘检测分支作为辅助任务，有效提高海冰边缘精度
+
   - year: 2022
     rewards:
       - name: 西安电子科技大学优秀研究生
       - name: 西安电子科技大学一等学业奖学金
       - name: 西安电子科技大学优秀硕士推免生专项奖学金
-portfolios:
-  - yearmonth: Feb 2018
-    projects:
-      - name: 基于 Java GUI 的线性代数矩阵计算器 Matrix Calculator
+  - yearmonth: 2022/03
+    rewards:
+      - name: 华为全球校园 AI 算法精英大赛 - 车道渲染数据智能质检
+        rank: 初赛第一名
         descriptions:
-          - Java GUI 程序开发
-  - yearmonth: Jul 2019
-    projects:
-      - name: <a href="https://github.com/xiaojianzhong/automatic-examination-system" target="_blank">基于 C++ MVC 的自动化考试系统 AES</a>
-        descriptions:
-          - 文件数据库驱动层实现 & 视图层实现
-      - name: 基于 asm 汇编语言的简易英英词典 E2E Dictionary
-        descriptions:
-          - 汇编程序开发
-  - yearmonth: Dec 2019
-    projects:
-      - name: 跨境物流集运平台——货多多集运
-        descriptions:
-          - 后台开发
-  - yearmonth: Feb 2020
-    projects:
-      - name: 基于 Golang Socket 的网络聊天室 chatroom
-        descriptions:
-          - C/S 端网络通信程序开发
-      - name: 基于 JDBC 的在线电商网购管理系统 E Commerce
-        descriptions:
-          - 数据库表结构设计 & Java GUI 程序开发
-      - name: 菜⻦驿站 126 版系统数据库设计方案
-        descriptions:
-          - 数据库设计负责人
-  - yearmonth: Mar 2020
-    projects:
-      - name: <a href="https://github.com/xiaojianzhong/matlab-deep-learning" target="_blank">《MATLAB DEEP LEARNING》源代码</a>
-        descriptions:
-          - 机器学习算法实现 & 中文文档补充
-      - name: <a href="https://github.com/xiaojianzhong/jnu-jwxt-captcha-breaker" target="_blank">暨南大学教务系统验证码解析模型</a>
-        descriptions:
-          - 字符识别模型设计与实现 & 准确率测试
-      - name: 关于暨南大学学生职业规划的跨年级意见交流平台——暨望小程序
-        descriptions:
-          - 小程序前后端开发
-  - yearmonth: Apr 2020
-    projects:
-      - name: <a href="https://github.com/xiaojianzhong/gokoa" target="_blank">Koa 风格的 Go web 框架 GoKoa</a>
-        descriptions:
-          - 框架设计与开发
-  - yearmonth: Jun 2020
-    projects:
-      - name: 第三方安卓 ROM 研究
-        descriptions:
-          - 数据收集、统计分析与图表可视化
-          - <a href="http://isceic.org/" target="_blank">ISCEIC</a> 第二作者
-  - yearmonth: Jul 2020
-    projects:
-      - name: 基于 TensorFlow.js 的移动端图像识别游戏 Emoji Hunter
-        descriptions:
-          - 机器学习模型选型与落地 & 超参数调优 & 游戏前端页面开发
-          - 在 机器学习与神经网络 课程中获得满分
-          - 2020 年“高校杯”广东省软件作品设计大赛
-          - 2020 年“华资杯”广东省大学生计算机作品赛
-          - 2020 年粤港澳大湾区 IT 应用系统开发大赛
-      - name: bilibili 视频弹幕网站系统数据仓库设计方案
-        descriptions:
-          - 数据仓库设计
-  - yearmonth: Aug 2020
-    projects:
-      - name: 基于 DNN 划分的低时延车辆边缘协同计算服务
-        descriptions:
-          - 系统架构设计 & 基于 socket 的 C/S 端程序实现
-          - 赢得 2020 年中国高校计算机大赛-网络技术挑战赛 一等奖
-      - name: 基于 QUIC 的 SDN 网络交互协议优化研究与实现
-        descriptions:
-          - 跨语言开源协议库移植
-          - 作为大创项目立项
-  - yearmonth: Aug 2021
-    projects:
-      - name: <a href="https://github.com/xiaojianzhong/SFNet" target="_blank">基于 MMSegmentation 的 SFNet 复现</a>
-        descriptions:
-          - 赢得 2021 年商汤 OpenMMLab 算法生态挑战赛 季军
+          - 使用 ResNet、EfficientNet、Inception 等图像分类模型识别渲染图片缺陷，针对性设计水平翻转、随机旋转等数据增强
+          - 观察到缺陷类别分布不一致，在训练阶段采取 Focal Loss、类别平衡采样、困难样本挖掘 OHEM 等策略
+          - 在推理阶段使用投票融合、均值融合等模型融合方法复用高分模型，采取测试时增强 TTA 有效优化输出分割图质量
+          - 鉴于有监督训练中未利用 130k+ 张无标签图像，设计基于自训练的半监督算法，训练时为无标签样本动态生成伪标签
+
 skills:
   - - name: Golang
       points: 10
