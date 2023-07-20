@@ -54,7 +54,7 @@ educations:
       - 课程：机器学习理论与实践（98）、图像工程（96）、人工智能创新实验（93）等
 
 experiences:
-  - avatar: /styles/img/experience/jinxing.png
+  - avatar: /styles/img/jinxing.png
     company: 进兴网络科技
     department: 货多多集运
     job: 全栈技术合伙人
@@ -63,7 +63,7 @@ experiences:
       to: 2019/06
     descriptions:
       - 基于 Node.js 搭建 C 端跨境物流平台，设计 RESTful API，适配仓储手持 PDA 编写前端页面，支撑 10w+ 在港用户使用
-  - avatar: /styles/img/experience/times.png
+  - avatar: /styles/img/times.png
     company: 时丰物流
     department: GetU 集运物流部
     job: 系统运维
@@ -72,7 +72,7 @@ experiences:
       to: 2019/12
     descriptions:
       - 协助迁移集运物流后台系统，部署 Linux 业务服务器，使用 forever、pm2 监控资源负载，查看异常日志，管理定时任务
-  - avatar: /styles/img/experience/tencent.jpg
+  - avatar: /styles/img/tencent.jpg
     company: 腾讯
     department: PCG-技术运营部
     job: 运营开发工程师
@@ -82,7 +82,7 @@ experiences:
     descriptions:
       - 建设微视内容与特征中台封闭域，将任务同步 API 移植为版本管理微服务，实现从 HTTP 协议到 tRPC 协议的转换
       - 以 MVC 为主线重构视频原文件下载微服务，多并发场景下每秒请求数（RPS）提高 62%，用户等待时间降低 38%，单测覆盖率达 96%+，司内代码评审（CR）评级达 A
-  - avatar: /styles/img/experience/bytedance.jpg
+  - avatar: /styles/img/bytedance.jpg
     company: 字节跳动
     department: Data-架构
     job: 系统架构研发工程师
@@ -92,7 +92,7 @@ experiences:
     descriptions:
       - 抖音 & TikTok 推荐系统离线数据流建设
       - 使用 Pyflame 分析工具定位 TikTok 正排候选更新服务资源问题，将 LRUCache 长键写入 Redis，有效减少集群内存占用
-  - avatar: /styles/img/experience/antgroup.png
+  - avatar: /styles/img/antgroup.png
     company: 蚂蚁集团
     department: 支付宝技术部
     job: 算法工程师
