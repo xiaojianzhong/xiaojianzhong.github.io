@@ -21,6 +21,9 @@ leetcode:
 zhihu:
   url: www.zhihu.com/people/zhong-xiaojian
   name: 钟晓键
+codeforces:
+  url: codeforces.com/profile/xiaojianzhong
+  name: xiaojianzhong
 
 educations:
   - avatar: /styles/img/jnu.jpg
