@@ -6310,11 +6310,11 @@ h6 {
   position: relative;
 }
 
-.education {
+.portfolio, .competition {
   position: relative;
 }
 
-.education:before {
+.portfolio:before, .competition:before {
   top: 10px;
   left: 0;
   bottom: 0;
@@ -6325,17 +6325,17 @@ h6 {
   background-color: #c0e3e7;
 }
 
-.education-box {
+.portfolio-box, .competition-box {
   position: relative;
   padding-left: 20px;
   margin-bottom: 45px;
 }
 
-.education-box p {
+.portfolio-box p, .competition-box p {
   font-size: 0.875em;
 }
 
-.education-box:before {
+.portfolio-box:before, .competition-box:before {
   content: '';
   top: 9px;
   left: -1px;
@@ -6346,14 +6346,14 @@ h6 {
   background: #010101;
 }
 
-.education-box h3 {
+.portfolio-box h3, .competition-box h3 {
   letter-spacing: 0;
   font-size: 0.938em;
   margin-top: 15px;
   margin-bottom: 10px;
 }
 
-.education-box:last-child:after {
+.portfolio-box:last-child:after, .competition-box:last-child:after {
   top: 14px;
   left: 0;
   bottom: 0;
@@ -6363,7 +6363,7 @@ h6 {
   background-color: #fff;
 }
 
-.education-date {
+.portfolio-date, .competition-date {
   left: -20px;
   width: 117px;
   letter-spacing: 0;
@@ -6376,14 +6376,14 @@ h6 {
   background: #c0e3e7;
 }
 
-.education-date span {
+.portfolio-date span, .competition-date span {
   overflow: hidden;
   position: relative;
   display: block;
   white-space: nowrap;
 }
 
-.education-date:before {
+.portfolio-date:before, .competition-date:before {
   content: '';
   top: 0;
   right: 100%;
@@ -6395,56 +6395,60 @@ h6 {
   border-right: 7px solid #c0e3e7;
 }
 
-.education-date.education-date-year {
+.portfolio-date.portfolio-date-year, .competition-date.competition-date-year {
   background: #ffe3e7;
   width: 80px;
 }
 
-.education-date.education-date-year:before {
+.portfolio-date.portfolio-date-year:before, .competition-date.competition-date-year:before {
   border-right-color: #ffe3e7;
 }
 
-.education-date.education-date-month {
+.portfolio-date.portfolio-date-month, .competition-date.competition-date-month {
   width: 60px;
 }
 
-.education-logo {
+.portfolio-logo, .competition-logo {
   margin-bottom: 5px;
 }
 
-.education-company {
+.portfolio-company, .competition-company {
   line-height: 1.1;
-  letter-spacing: 0;
-  font-size: 0.625em;
   color: #757575;
   margin-bottom: 15px;
   display: inline-block;
 }
 
 @media (min-width: 768px) {
-  .education {
+  .portfolio {
+    margin-left: 110px;
+  }
+  .competition {
     margin-left: 210px;
   }
 
-  .education:before {
+  .portfolio:before, .competition:before {
     top: 10px;
   }
 
-  .education-box {
+  .portfolio-box {
+    padding-right: 0px;
+  }
+  .competition-box {
     padding-right: 90px;
   }
 
-  .education-box h3 {
+  .portfolio-box h3, .competition-box h3 {
     font-size: 20px;
     margin-bottom: 22px;
     margin-top: 0;
   }
 
-  .education-box:before {
+  .portfolio-box:before, .competition-box:before {
     top: 10px;
   }
 
-  .education-date {
+  .portfolio-date, .competition-date {
     margin-left: 0;
     margin-right: 22px;
     padding: 8px 6px;
@@ -6457,11 +6461,11 @@ h6 {
     top: -4px;
   }
 
-  .education-date:before {
+  .portfolio-date:before, .competition-date:before {
     display: none;
   }
 
-  .education-date:after {
+  .portfolio-date:after, .competition-date:after {
     content: '';
     top: 0;
     left: 100%;
@@ -6473,27 +6477,22 @@ h6 {
     border-left: 10px solid #c0e3e7;
   }
 
-  .education-date.education-date-year {
+  .portfolio-date.portfolio-date-year, .competition-date.competition-date-year {
     background: #ffe3e7;
     width: 120px;
   }
 
-  .education-date.education-date-year:after {
+  .portfolio-date.portfolio-date-year:after, .competition-date.competition-date-year:after {
     border-left-color: #ffe3e7;
   }
 
-  .education-date.education-date-month {
+  .portfolio-date.portfolio-date-month, .competition-date.competition-date-month {
     width: 80px;
   }
 }
 
-.education-logo {
+.portfolio-logo, .competition-logo {
   margin-bottom: 10px;
-}
-
-.education-company {
-  font-size: 1em;
-  margin-bottom: 15px;
 }
 
 /**
