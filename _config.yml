@@ -65,7 +65,7 @@ experiences:
       - 基于 Node.js 搭建 C 端跨境物流平台，设计 RESTful API，适配仓储手持 PDA 编写前端页面，支撑 10w+ 在港用户使用
   - avatar: /styles/img/times.png
     company: 时丰物流
-    department: GetU 集运物流部
+    department: GetU-集运物流部
     job: 系统运维
     period:
       from: 2019/06
