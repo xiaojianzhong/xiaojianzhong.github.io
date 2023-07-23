@@ -15,9 +15,9 @@
           </time>
           {% endif %} {% for reward in comp.rewards %}
           <p>
-            {{ reward.name }}
+            <strong>{{ reward.name }}</strong>
             <br />
-            <strong>{{ reward.rank }}</strong>
+            {{ reward.rank }}
           </p>
           {% endfor %}
         </div>
