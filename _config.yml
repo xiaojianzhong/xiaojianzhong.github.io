@@ -335,17 +335,21 @@ researches:
       - 定义基于不确定性的多任务学习损失，联合优化分类与蒸馏任务，为两项损失自动、动态、并行地分配不同权重
 
 skills:
-  - - name: Golang
+  - - name: Python
       points: 10
-    - name: Database（MySQL / Redis / MongoDB）
-      points: 9
+    - name: PyTorch
+      points: 10
+    - name: 数据结构与算法
+      points: 10
     - name: Linux / shell
       points: 8
-  - - name: Markdown
-      points: 10
-    - name: VCS（Git / GitHub）
-      points: 10
+  - - name: C++
+      points: 9
+    - name: Go
+      points: 8
     - name: Docker
       points: 8
+    - name: Git
+      points: 10
 
 exclude: ['LICENSE', 'package.json', 'package-lock.json', 'commitlint.config.js', 'node_modules']
