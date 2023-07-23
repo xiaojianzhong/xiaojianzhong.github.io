@@ -80,7 +80,7 @@ experiences:
       from: 2020/06
       to: 2020/09
     descriptions:
-      - 建设微视内容与特征中台封闭域，将任务同步 API 移植为版本管理微服务，实现从 HTTP 协议到 tRPC 协议的转换
+      - 建设<b>微视</b>内容与特征中台封闭域，将任务同步 API 移植为版本管理微服务，实现从 HTTP 协议到 tRPC 协议的转换
       - 以 MVC 为主线重构视频原文件下载微服务，多并发场景下每秒请求数（RPS）提高 62%，用户等待时间降低 38%，单测覆盖率达 96%+，司内代码评审（CR）评级达 A
   - avatar: /styles/img/bytedance.jpg
     company: 字节跳动
@@ -90,7 +90,7 @@ experiences:
       from: 2020/09
       to: 2020/11
     descriptions:
-      - 抖音 & TikTok 推荐系统离线数据流建设
+      - <b>抖音</b> & <b>TikTok</b> 推荐系统离线数据流建设
       - 使用 Pyflame 分析工具定位 TikTok 正排候选更新服务资源问题，将 LRUCache 长键写入 Redis，有效减少集群内存占用
   - avatar: /styles/img/antgroup.png
     company: 蚂蚁集团
@@ -100,6 +100,9 @@ experiences:
       from: 2023/06
       to: 2023/09
     descriptions:
+      - <b>支付宝</b> AI 计算平台服务建设，支撑对接「会员 AIGC 照相馆 - 图像风格化」、「视障人群收款码语音输入」等算法业务
+      - 基于 Redis + Lua 实现中心化分布式限流，为计算密集型服务提供集群级流控能力，保留单机限流作为单点失败降级策略
+      - 平台技术底盘优化，计算层引入 gRPC + Protobuf 打通 C++ Nginx 与 Python 算法进程间通信，统一算法交付形式
 
 portfolios:
   - yearmonth: 2018/02
