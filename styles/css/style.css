@@ -6309,11 +6309,11 @@ h6 {
   position: relative;
 }
 
-.portfolio, .competition {
+.portfolio, .competition, .research {
   position: relative;
 }
 
-.portfolio:before, .competition:before {
+.portfolio:before, .competition:before, .research:before {
   top: 10px;
   left: 0;
   bottom: 0;
@@ -6324,17 +6324,17 @@ h6 {
   background-color: #c0e3e7;
 }
 
-.portfolio-box, .competition-box {
+.portfolio-box, .competition-box, .research-box {
   position: relative;
   padding-left: 20px;
   margin-bottom: 45px;
 }
 
-.portfolio-box p, .competition-box p {
+.portfolio-box p, .competition-box p, .research-box p {
   font-size: 0.875em;
 }
 
-.portfolio-box:before, .competition-box:before {
+.portfolio-box:before, .competition-box:before, .research-box:before {
   content: '';
   top: 9px;
   left: -1px;
@@ -6345,14 +6345,14 @@ h6 {
   background: #010101;
 }
 
-.portfolio-box h3, .competition-box h3 {
+.portfolio-box h3, .competition-box h3, .research-box h3 {
   letter-spacing: 0;
   font-size: 0.938em;
   margin-top: 15px;
   margin-bottom: 10px;
 }
 
-.portfolio-box:last-child:after, .competition-box:last-child:after {
+.portfolio-box:last-child:after, .competition-box:last-child:after, .research-box:last-child:after {
   top: 14px;
   left: 0;
   bottom: 0;
@@ -6362,7 +6362,7 @@ h6 {
   background-color: #fff;
 }
 
-.portfolio-date, .competition-date {
+.portfolio-date, .competition-date, .research-date {
   left: -20px;
   width: 117px;
   letter-spacing: 0;
@@ -6375,14 +6375,14 @@ h6 {
   background: #c0e3e7;
 }
 
-.portfolio-date span, .competition-date span {
+.portfolio-date span, .competition-date span, .research-date span {
   overflow: hidden;
   position: relative;
   display: block;
   white-space: nowrap;
 }
 
-.portfolio-date:before, .competition-date:before {
+.portfolio-date:before, .competition-date:before, .research-date:before {
   content: '';
   top: 0;
   right: 100%;
@@ -6394,24 +6394,24 @@ h6 {
   border-right: 7px solid #c0e3e7;
 }
 
-.portfolio-date.portfolio-date-year, .competition-date.competition-date-year {
+.portfolio-date.portfolio-date-year, .competition-date.competition-date-year, .research-date.research-date-year {
   background: #ffe3e7;
   width: 80px;
 }
 
-.portfolio-date.portfolio-date-year:before, .competition-date.competition-date-year:before {
+.portfolio-date.portfolio-date-year:before, .competition-date.competition-date-year:before, .research-date.research-date-year:before {
   border-right-color: #ffe3e7;
 }
 
-.portfolio-date.portfolio-date-month, .competition-date.competition-date-month {
+.portfolio-date.portfolio-date-month, .competition-date.competition-date-month, .research-date.research-date-month {
   width: 60px;
 }
 
-.portfolio-logo, .competition-logo {
+.portfolio-logo, .competition-logo, .research-logo {
   margin-bottom: 5px;
 }
 
-.portfolio-company, .competition-company {
+.portfolio-company, .competition-company, .research-company {
   line-height: 1.1;
   color: #757575;
   margin-bottom: 15px;
@@ -6419,35 +6419,35 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  .portfolio {
+  .portfolio, .research {
     margin-left: 110px;
   }
   .competition {
     margin-left: 210px;
   }
 
-  .portfolio:before, .competition:before {
+  .portfolio:before, .competition:before, .research:before {
     top: 10px;
   }
 
-  .portfolio-box {
+  .portfolio-box, .research-box {
     padding-right: 0px;
   }
   .competition-box {
     padding-right: 90px;
   }
 
-  .portfolio-box h3, .competition-box h3 {
+  .portfolio-box h3, .competition-box h3, .research-box h3 {
     font-size: 20px;
     margin-bottom: 22px;
     margin-top: 0;
   }
 
-  .portfolio-box:before, .competition-box:before {
+  .portfolio-box:before, .competition-box:before, .research-box:before {
     top: 10px;
   }
 
-  .portfolio-date, .competition-date {
+  .portfolio-date, .competition-date, .research-date {
     margin-left: 0;
     margin-right: 22px;
     padding: 8px 6px;
@@ -6460,11 +6460,11 @@ h6 {
     top: -4px;
   }
 
-  .portfolio-date:before, .competition-date:before {
+  .portfolio-date:before, .competition-date:before, .research-date:before {
     display: none;
   }
 
-  .portfolio-date:after, .competition-date:after {
+  .portfolio-date:after, .competition-date:after, .research-date:after {
     content: '';
     top: 0;
     left: 100%;
@@ -6476,21 +6476,21 @@ h6 {
     border-left: 10px solid #c0e3e7;
   }
 
-  .portfolio-date.portfolio-date-year, .competition-date.competition-date-year {
+  .portfolio-date.portfolio-date-year, .competition-date.competition-date-year, .research-date.research-date-year {
     background: #ffe3e7;
     width: 120px;
   }
 
-  .portfolio-date.portfolio-date-year:after, .competition-date.competition-date-year:after {
+  .portfolio-date.portfolio-date-year:after, .competition-date.competition-date-year:after, .research-date.research-date-year:after {
     border-left-color: #ffe3e7;
   }
 
-  .portfolio-date.portfolio-date-month, .competition-date.competition-date-month {
+  .portfolio-date.portfolio-date-month, .competition-date.competition-date-month, .research-date.research-date-month {
     width: 80px;
   }
 }
 
-.portfolio-logo, .competition-logo {
+.portfolio-logo, .competition-logo, .research-logo {
   margin-bottom: 10px;
 }
 

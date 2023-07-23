@@ -1,0 +1,25 @@
+<section class="section brd-btm" id="research">
+  <div class="row">
+    <div class="col-sm-12 clear-mrg">
+      <h2 class="title-thin text-muted">科研经历</h2>
+      <div class="research">
+        {% for rech in site.researches reversed %}
+        <div class="research-box">
+          <time class="research-date research-date-month">
+            <span>{{ rech.yearmonth }}</span>
+          </time>
+          <p>
+            <strong>{{ rech.title }}</strong>
+            <br />
+            <span class="research-company">{{ rech.venue }}</span>
+            {% for desc in rech.descriptions %}
+            <br />
+            <span>{{ desc }}</span>
+            {% endfor %}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
