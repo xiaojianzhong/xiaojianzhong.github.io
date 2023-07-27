@@ -80,8 +80,8 @@ experiences:
       from: 2020/06
       to: 2020/09
     descriptions:
-      - 建设<b>微视</b>内容与特征中台封闭域，将任务同步 API 移植为版本管理微服务，实现从 HTTP 协议到 tRPC 协议的转换
-      - 以 MVC 为主线重构视频原文件下载微服务，多并发场景下每秒请求数（RPS）提高 62%，用户等待时间降低 38%，单测覆盖率达 96%+，司内代码评审（CR）评级达 A
+      - <b>腾讯微视</b>内容与特征中台封闭域建设，将任务同步 HTTP API 移植到版本管理 tRPC-Go 微服务，有效改善用户调用体验
+      - 以 MVC 为主线，重构视频文件下载微服务，多并发场景下 RPS 提高 62%，单测覆盖率达 96%+，司内 CR 评级达 A
   - avatar: /styles/img/bytedance.jpg
     company: 字节跳动
     department: Data-架构
@@ -90,8 +90,8 @@ experiences:
       from: 2020/09
       to: 2020/11
     descriptions:
-      - <b>抖音</b> & <b>TikTok</b> 推荐系统离线数据流建设
-      - 使用 Pyflame 分析工具定位 TikTok 正排候选更新服务资源问题，将 LRUCache 长键写入 Redis，有效减少集群内存占用
+      - <b>抖音</b> & <b>TikTok</b> 推荐系统离线数据流建设，熟悉推荐术语 & 策略 & 数据流、C++ RPC 框架 Thrift、监控告警配置、压测
+      - Pyflame + tracemalloc 定位 TikTok 正排候选更新服务 Python 内存占用问题，将本地 LRU 缓存中大 kv 写入远端 Redis
   - avatar: /styles/img/antgroup.png
     company: 蚂蚁集团
     department: 支付宝技术部
@@ -100,9 +100,9 @@ experiences:
       from: 2023/06
       to: 2023/09
     descriptions:
-      - <b>支付宝</b> AI 计算平台服务建设，支撑对接「会员 AIGC 照相馆 - 图像风格化」、「视障人群收款码语音输入」等算法业务
-      - 基于 Redis + Lua 实现中心化分布式限流，为计算密集型服务提供集群级流控能力，保留单机限流作为单点失败降级策略
-      - 平台技术底盘优化，计算层引入 gRPC + Protobuf 打通 C++ Nginx 与 Python 算法进程间通信，统一算法交付形式
+      - <b>支付宝</b> AI 计算平台服务建设，对接算法方上线「AIGC 照相馆 - 图像风格化」、「视障人群收款码语音输入」两个业务
+      - 基于 Redis + Lua 实现中心化分布式限流，为计算密集型服务提供集群级流控能力，单机限流作为单点失败时降级策略
+      - 平台技术底盘优化，计算节点引入 gRPC + Protobuf 打通 C++ Nginx 与 PyTorch 算法进程间通信，统一算法交付形式
 
 portfolios:
   - yearmonth: 2018/02
