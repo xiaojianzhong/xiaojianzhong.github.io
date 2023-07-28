@@ -93,7 +93,7 @@ experiences:
       - <b>抖音</b> & <b>TikTok</b> 推荐系统离线数据流建设，熟悉推荐术语 & 策略 & 数据流、C++ RPC 框架 Thrift、监控告警配置、压测
       - Pyflame + tracemalloc 定位 TikTok 正排候选更新服务 Python 内存占用问题，将本地 LRU 缓存中大 kv 写入远端 Redis
   - avatar: /styles/img/antgroup.png
-    company: 蚂蚁集团
+    company: 蚂蚁
     department: 支付宝技术部
     job: 算法工程师
     period:
