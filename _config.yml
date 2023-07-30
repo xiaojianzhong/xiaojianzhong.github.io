@@ -319,23 +319,23 @@ competitions:
         rank: 全国前 50 名
 
 researches:
-  - yearmonth: 2020/10
-    title: Remote Sensing Video Analysis and Future Challenges
-    venue: 顶刊 TNNLS 在投综述
+  - yearmonth: 2021/06
+    title: 基于上下文信息聚合和辅助学习的轻量级语义分割方法及系统
+    venue: 实审专利
     descriptions:
-      - 调研 40+ 个遥感视频公开数据集的来源、作者、引用等信息，撰写 Remote Sensing Video Datasets 章节
-      - 轻度魔改 MMDetection 以支持输入多通道遥感视频，量化对比 10+ 个经典模型在吉林一号卫星数据集上的精度水平
+      - 设计上下文聚合与坐标注意力提高分割精度，采取深度可分离卷积优化推理效率，引入带权辅助损失加速模型收敛
   - yearmonth: 2022/02
     title: 基于动态超图的遥感视频场景语义理解研究
     venue: 国家自然科学基金
     descriptions:
       - 调研动态超图、知识图谱、Transformer 等前沿技术，撰写研究内容、关键问题、特色与创新、技术路线等主体章节
-  - yearmonth: 2022/05
-    title: 基于上下文信息聚合和辅助学习的轻量级语义分割方法及系统
-    venue: 实审专利
+  - yearmonth: 2023/04
+    title: Remote Sensing Video Analysis and Future Challenges
+    venue: 顶刊 TNNLS 在投综述
     descriptions:
-      - 设计上下文聚合与坐标注意力提高分割精度，采取深度可分离卷积优化推理效率，引入带权辅助损失加速模型收敛
-  - yearmonth: 2022/09
+      - 调研 40+ 个遥感视频公开数据集的来源、作者、引用等信息，撰写 Remote Sensing Video Datasets 章节
+      - 轻度魔改 MMDetection 以支持输入多通道遥感视频，量化对比 10+ 个经典模型在吉林一号卫星数据集上的精度水平
+  - yearmonth: 2023/06
     title: 'M3DGCN: Dynamic Graph Convolutional Network with Multi-Teacher Multi-Objective Meta-Learning for Zero-Shot Hyperspectral Band Selection'
     venue: 顶刊 TGRS 在投论文
     descriptions:
