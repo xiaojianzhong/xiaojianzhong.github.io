@@ -262,16 +262,12 @@ competitions:
       - name: 暨南大学优秀学生荣誉称号
       - name: 暨南大学金龙鱼（本科人才创新专项）奖学金
       - name: 暨南大学 5A 优秀学子奖励计划创业之星提名奖
-  - yearmonth: 2020/09
-    rewards:
-      - name: 中国高校计算机大赛 - 网络技术挑战赛
-        rank: 华南赛区一等奖
   - yearmonth: 2020/10
     rewards:
       - name: 蓝桥杯全国软件和信息技术专业人才大赛 - Java 个人赛
         rank: 广东省二等奖
       - name: 中国高校计算机大赛 - 网络技术挑战赛
-        rank: 全国总决赛三等奖
+        rank: 华南赛区一等奖 + 全国总决赛三等奖
   - yearmonth: 2020/11
     rewards:
       - name: 全国大学生软件测试大赛 - Web 应用测试
