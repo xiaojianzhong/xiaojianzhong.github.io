@@ -347,17 +347,17 @@ skills:
   - - name: Python
       points: 10
     - name: PyTorch
-      points: 10
+      points: 8
     - name: 数据结构与算法
       points: 10
-    - name: Linux / shell
-      points: 8
+    - name: Linux
+      points: 10
   - - name: C++
       points: 9
     - name: Go
-      points: 8
+      points: 7
     - name: Docker
-      points: 8
+      points: 9
     - name: Git
       points: 10
 
