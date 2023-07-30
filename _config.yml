@@ -234,7 +234,7 @@ competitions:
         rank: 校第五名
   - yearmonth: 2018/05
     rewards:
-      - name: 「挑战杯·创青春」中国大学生创业计划竞赛
+      - name: 「挑战杯•创青春」中国大学生创业计划竞赛
         rank: 广东省铜奖
   - yearmonth: 2018/06
     rewards:
@@ -242,9 +242,9 @@ competitions:
         rank: 校一等奖 + 校最佳项目奖
   - yearmonth: 2019/04
     rewards:
-      - name: 「嘉诚-高顿杯」粤港澳大湾区高校大学生物流设计大赛
+      - name: 「嘉诚•高顿杯」粤港澳大湾区高校大学生物流设计大赛
         rank: 广东省一等奖
-  - yearmonth: 2019/10
+  - yearmonth: 2019/11
     rewards:
       - name: 全国大学生软件测试大赛 - 开发者测试
         rank: 广东省二等奖
@@ -252,7 +252,7 @@ competitions:
         rank: 广东省三等奖
   - yearmonth: 2019/12
     rewards:
-      - name: 全国大学生「腾讯杯」人机 debug 测试大赛
+      - name: 「腾讯杯」全国大学生人机 debug 测试大赛
         rank: 全国第一名
       - name: 全国大学生软件测试大赛 - 开发者测试
         rank: 全国第十二名
@@ -262,14 +262,16 @@ competitions:
       - name: 暨南大学优秀学生荣誉称号
       - name: 暨南大学金龙鱼（本科人才创新专项）奖学金
       - name: 暨南大学 5A 优秀学子奖励计划创业之星提名奖
-  - yearmonth: 2020/07
+  - yearmonth: 2020/09
     rewards:
       - name: 中国高校计算机大赛 - 网络技术挑战赛
         rank: 华南赛区一等奖
   - yearmonth: 2020/10
     rewards:
-      - name: 蓝桥杯大赛 - 软件类
+      - name: 蓝桥杯全国软件和信息技术专业人才大赛 - Java 个人赛
         rank: 广东省二等奖
+      - name: 中国高校计算机大赛 - 网络技术挑战赛
+        rank: 全国总决赛三等奖
   - yearmonth: 2020/11
     rewards:
       - name: 全国大学生软件测试大赛 - Web 应用测试
@@ -277,29 +279,28 @@ competitions:
   - year: 2021
     rewards:
       - name: 暨南大学毕业班优秀学生一等奖学金
-      - name: 2021 届信息科学技术学院优秀毕业生科技创新奖
-      - name: 2021 届暨南大学有作为、有贡献毕业生
-      - name: 暨南大学校级优秀毕业论文
-  - yearmonth: 2021/08
+      - name: 暨南大学信息科学技术学院 2021 届优秀毕业生科技创新奖
+      - name: 暨南大学 2021 届有作为、有贡献毕业生
+      - name: 暨南大学 2021 届校级优秀毕业论文
+  - yearmonth: 2021/09
     rewards:
       - name: 商汤 OpenMMLab 算法生态挑战赛
         rank: 季军
         descriptions:
           - 为 MMSegmentation 语义分割框架加入 ECCV 2020 论文 <a href="https://github.com/xiaojianzhong/SFNet" target="_blank">SFNet 复现支持</a>，各 backbone 下精度均达到原始论文水平
-  - yearmonth: 2021/09
+  - yearmonth: 2021/11
     rewards:
-      - name: 「中科星图杯」面向海洋一号可见光图像中海冰语义分割
+      - name: 「中科星图杯」海洋一号可见光图像中海冰语义分割
         descriptions:
           - 针对大分辨率采取有重叠滑窗裁切方法制作训练集，使用 DeepLab v3+、PointRend 等语义分割模型划定海冰区域
           - 观察到正负样本像素数量比例约为 1:4，尝试过采样正样本图像重置训练集，并使用 IoU 友好的 Dice Loss
           - 观察到推理结果中海冰边缘表现较差，加入基于二分类交叉熵的边缘检测分支作为辅助任务，有效提高海冰边缘精度
-
   - year: 2022
     rewards:
       - name: 西安电子科技大学优秀研究生
       - name: 西安电子科技大学一等学业奖学金
       - name: 西安电子科技大学优秀硕士推免生专项奖学金
-  - yearmonth: 2022/03
+  - yearmonth: 2022/06
     rewards:
       - name: 华为全球校园 AI 算法精英大赛 - 车道渲染数据智能质检
         rank: 初赛第一名
@@ -308,6 +309,14 @@ competitions:
           - 观察到缺陷类别分布不一致，在训练阶段采取 Focal Loss、类别平衡采样、困难样本挖掘 OHEM 等策略
           - 在推理阶段使用投票融合、均值融合等模型融合方法复用高分模型，采取测试时增强 TTA 有效优化输出分割图质量
           - 鉴于有监督训练中未利用 130k+ 张无标签图像，设计基于自训练的半监督算法，训练时为无标签样本动态生成伪标签
+  - yearmonth: 2023/04
+    rewards:
+      - name: LCCUP 力扣杯春季编程大赛 - 个人赛
+        rank: 全国前 5%
+  - yearmonth: 2023/06
+    rewards:
+      - name: 顺丰 SF-X 智慧供应链高校菁英挑战赛 - 编程赛
+        rank: 全国前 50 名
 
 researches:
   - yearmonth: 2020/10
