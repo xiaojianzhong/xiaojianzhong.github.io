@@ -315,6 +315,11 @@ competitions:
         rank: 全国前 50 名
 
 researches:
+  - yearmonth: 2020/08
+    title: Empirical Research And Auxiliary Tool For Custom Android ROMs
+    venue: ISCEIC 2020
+    descriptions:
+      - 收集各 Android 平台第三方 ROM 信息，统计分析，图表可视化
   - yearmonth: 2021/06
     title: 基于上下文信息聚合和辅助学习的轻量级语义分割方法及系统
     venue: 实审专利
