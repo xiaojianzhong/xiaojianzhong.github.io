@@ -8,9 +8,9 @@ birthday:
   day: '05'
 origin: 广东
 
-phone: +86 13042025045
+phone: '13042025045'
 wechat: ZXJ1158257471
-qq: 1158257471
+qq: '1158257471'
 email: xiaojian.zhong@outlook.com
 github:
   url: github.com/xiaojianzhong
@@ -221,7 +221,7 @@ competitions:
     rewards:
       - name: 暨南大学港澳台侨学生创新创业大赛
         rank: 校三等奖
-  - year: 2018
+  - year: '2018'
     rewards:
       - name: 暨南大学优秀学生干部奖学金
   - yearmonth: 2018/01
@@ -256,7 +256,7 @@ competitions:
         rank: 全国第一名
       - name: 全国大学生软件测试大赛 - 开发者测试
         rank: 全国第十二名
-  - year: 2020
+  - year: '2020'
     rewards:
       - name: 暨南大学优秀学生一等奖学金
       - name: 暨南大学优秀学生荣誉称号
@@ -272,7 +272,7 @@ competitions:
     rewards:
       - name: 全国大学生软件测试大赛 - Web 应用测试
         rank: 广东省优胜奖
-  - year: 2021
+  - year: '2021'
     rewards:
       - name: 暨南大学毕业班优秀学生一等奖学金
       - name: 暨南大学信息科学技术学院 2021 届优秀毕业生科技创新奖
@@ -291,7 +291,7 @@ competitions:
           - 针对大分辨率采取有重叠滑窗裁切方法制作训练集，使用 DeepLab v3+、PointRend 等语义分割模型划定海冰区域
           - 观察到正负样本像素数量比例约为 1:4，尝试过采样正样本图像重置训练集，并使用 IoU 友好的 Dice Loss
           - 观察到推理结果中海冰边缘表现较差，加入基于二分类交叉熵的边缘检测分支作为辅助任务，有效提高海冰边缘精度
-  - year: 2022
+  - year: '2022'
     rewards:
       - name: 西安电子科技大学优秀研究生
       - name: 西安电子科技大学一等学业奖学金
